@@ -1,0 +1,1335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: .625rem 1.25rem;
+    width: 100%;
+    height: 10rem;
+    flex-wrap: wrap;
+    background-image: url("../assets/img/Encabezado.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.encabezado p{
+    font-family: "Italianno", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    font-size: 6rem
+}
+
+.encabezado li {
+    list-style: none;
+    flex-wrap: wrap;
+}
+.encabezado li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+
+
+footer{
+    background-image: url("../assets/img/pie-de-página.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 0px 40px;
+    gap: 10rem;
+    height: 30rem;
+    color: aliceblue;
+    font-family: "Judson", sans-serif;
+    font-size: 2.8rem;
+    text-decoration : none;
+}
+
+.contActos h3{
+    padding-bottom: 35px;
+}
+
+.contActos p{
+    display: inline-flex;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    
+}
+.contActos li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.reDes h3{
+    padding-bottom: 35px;
+}
+
+.reDes p{
+    display: inline-flex;
+    padding-bottom: 35px;
+    padding-left: 25px;
+}
+
+.reDes li{
+    list-style: none;
+    text-decoration: none;
+}
+.viDas{
+    font-family: "Italianno", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-top: 23rem;
+    margin-left: 27rem;
+
+} 
+
+.naVbar{
+    font-family: "Judson", sans-serif;
+    display: flex;
+    gap: 2rem;
+    font-size: 3rem;
+    padding-top: 2.5rem;
+    flex-wrap: wrap;
+    
+}
+
+.tituloYSubtitulo {
+    font-family: "Judson", sans-serif;
+    font-size: 2.8125rem;
+    font-weight:bolder;
+    color: aliceblue;
+    text-align: right;
+    width: 100%;
+    height: 70rem;
+    
+}
+
+.tituloYSubtitulo img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70rem;
+}
+
+.tituloYSubtitulo h1{
+    font-family: "Judson", sans-serif;
+    font-size: 8.5rem;
+    margin-top: -40rem;
+    margin-right: 2rem;
+    flex-wrap: wrap;
+}
+.tituloYSubtitulo h2{
+    font-family: "Judson", sans-serif;
+    font-size: 4rem;
+    flex-wrap: wrap;
+    margin-right: 2.8rem;
+}
+
+.sectionParrafoUno {
+    background-image: url("../assets/img/Group\ 7.png");
+    width: 100%;
+    height: 100rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+} 
+
+
+.sectionParrafoUno h2{
+    font-family: "Judson", sans-serif;
+    font-size: 6.65rem;
+    color: aliceblue;
+    width: 80.5rem;
+    height: 60rem;
+    margin-left: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+
+}
+
+.parrAfouno {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 5rem;
+    text-align: left;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.442);
+    width: 38%;
+    height: 28rem;
+    padding: 30px 40px;
+    border-radius:2rem;
+    margin-top: -35rem;
+    margin-left: 3rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.parrAfodos{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 5rem;
+    text-align: left;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.442);
+    width: 38%;
+    margin-left: 3rem;
+    margin-top: 14rem;
+    padding: 20px 40px;
+    border-radius:2rem;
+    flex-wrap: wrap;
+}
+
+
+.conFiarr {
+
+    background-image: url("../assets/img/Rectangle 33.png");
+    width: 100%;
+    height: 98rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.conFiarr h2{
+    font-family: "Judson", sans-serif;
+    color: aliceblue;
+    margin-bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0.611);
+    text-align: center;
+    font-size: 6.5rem;
+    width: 100%;
+    height: 17rem;
+    margin-top: 6rem;
+    border-radius: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.conFiarr2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+
+.conFiar p{
+
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    color: aliceblue;
+    width: 27rem;
+    height: 17rem;
+    margin-top: 5rem;
+    text-align: left ;
+    background-color: rgba(0, 0, 0, 0.611);
+    border-radius: 2rem;
+    padding: 20px 38px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.soMos {
+    background-image: url("../assets/img/perroconchabon.JPG");
+    width: 100%;
+    height: 120rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+.soMos h2{
+    font-family: "Judson", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 13rem;
+    position: relative;
+    top: 10rem;
+    flex-wrap: wrap;
+}
+
+.soMos h3{
+    font-family: "Judson", sans-serif;
+    color: aliceblue;
+    font-size: 6rem;
+    text-align: center;
+    position: relative;
+    top: 9rem;
+    flex-wrap: wrap;
+}
+
+.parrAfos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 95rem;
+    left: 11rem ;
+    list-style: none;
+    gap: 7rem;
+    flex-wrap: wrap;
+}
+
+.parrAfos li{
+    list-style: none;
+}
+
+
+.soMos p{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color: aliceblue;
+    width: 27rem;
+    height: 24.5rem;
+    text-align: left ;
+    background-color: rgba(0, 0, 0, 0.574);
+    border-radius: 2rem;
+    padding: 20px 38px;
+    flex-wrap: wrap;
+}
+
+.imgsTexto{
+    background-image: url("../assets/img/Rectangle\ 44.png");
+    width: 100%;
+    height: 140rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.lucasImagen{ 
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    left: 180px;
+    top: 40px;
+    flex-wrap: wrap;
+}
+
+.texTolucas{
+    position: absolute;
+    left: 50rem;
+    top: 3.5rem;
+    width: 50rem;
+    height: 28rem;
+    left: 60rem;
+    background-color: rgba(0, 0, 0, 0.594);
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 40px 70px;
+    flex-wrap: wrap;
+}
+
+.pepeImagen{
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    right: 150px;
+    top: 600px;
+    flex-wrap: wrap;
+}
+
+.pepeTexto{
+    background-color: rgba(0, 0, 0, 0.594);
+    position: absolute;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 50px 70px;
+    width: 50rem;
+    height: 28rem;
+    left: 10rem;
+    top: 38rem;
+    flex-wrap: wrap;
+}
+
+.joseImagen{
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    left: 180px;
+    top: 1150px;
+    flex-wrap: wrap;
+}
+
+
+.joseTexto{
+    position: absolute;
+    left: 70rem;
+    top: 73rem;
+    width: 50rem;
+    height: 28rem;
+    background-color: rgba(0, 0, 0, 0.594);
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 20px 65px;
+    justify-content:space-around;
+    left: 60rem;
+    flex-wrap: wrap;
+}
+
+
+.andreaImagen{
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    right: 150px;
+    top: 1710px;
+}
+
+.andreTexto{
+    background-color: rgba(0, 0, 0, 0.594);
+    position: absolute;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 50px 70px;
+    width: 50rem;
+    height: 28rem;
+    left: 10rem;
+    top: 108rem;
+    flex-wrap: wrap;
+}
+
+
+.doNaciones {
+    width: 100%;
+    height: 130rem;
+    background-image: url("../assets/img/Rectangle\ 34\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+.tituloDonar{
+    font-family: "Judson", sans-serif;
+    font-size: 6rem;
+    position: relative;
+    text-align: center;
+    width: 90rem;
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.454);
+    color: aliceblue;
+    top:5rem;
+    padding: 20px 50px;
+    border-radius: 2.5rem;
+    right: -240px;
+    flex-wrap: wrap;
+}
+
+.textoDonar{
+    right: -240px;
+    font-size: 5rem;
+    position: relative;
+    text-align: center;
+    width: 90rem;
+    height: 28rem;
+    background-color: rgba(0, 0, 0, 0.454);
+    color: aliceblue;
+    border-radius: 5rem;
+    padding: 30px 38px;
+    top: 14rem;
+    flex-wrap: wrap;
+}
+
+button{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    position: absolute;
+    background-color: orange;
+    color: aliceblue;
+    display: block;
+    padding: 2rem 8rem;
+    border-radius: 10rem 10rem;
+    box-shadow: 0.3125rem 0.3125rem 0.625rem black;
+    left: 770px;
+    bottom: -250px;
+    flex-wrap: wrap;
+}
+
+
+
+.paYpal{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 11.6rem;
+    height: 6rem;
+    top: 430px;
+    left: 695px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.merCado{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 6rem;
+    top: 335px;
+    left: 846px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.viSa{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 6rem;
+    top: 239px;
+    left: 1000px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.botoNsugerencia{
+    position: relative;
+    bottom: -1700px;
+    left: 815px;
+    width: 5rem;
+    height: 1rem;
+    padding: 50px 120.5px;
+    border-radius: 10rem 10rem;
+    box-shadow: 0.3125rem 0.3125rem 0.625rem black;
+    flex-wrap: wrap;
+
+}
+
+.botoNsugerencia img{
+    position: absolute;
+    top: -2px;
+    left: 3.5rem;
+    flex-wrap: wrap;
+}
+
+.sugeRencias{
+    background-image: url("../assets/img/perronaranja.jpg");
+    width: 100%;
+    height: 140rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+
+.tituLosugerencia{
+    width: 1000.3px;
+    height: 200px;
+    position: relative;
+    font-size: 7rem;
+    border-radius: 4rem;
+    font-family: "Judson", sans-serif;
+    background-color: rgb(239, 168, 37);
+    color: aliceblue;
+    padding: 40px 70px;
+    left: 460px;
+    top: 100px;
+    flex-wrap: wrap;
+}
+
+.tituLosugerencia2{
+    position: absolute;
+    font-size: 4.5rem;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 500px;
+    left: 380px;
+    top: 700px;
+    padding: 40px 40px;
+    border-radius: 5rem;
+    background-color: rgba(0, 0, 0, 0.434);
+    font-family: "Roboto Flex", sans-serif;
+    color: aliceblue
+    
+}
+
+label{
+    background-color: rgba(0, 0, 0, 0.458);
+    width: 450px;
+    height: 60px;
+    position: absolute;
+    font-size: 2.5rem;
+    text-align: center;
+    left: 455px;
+    bottom: -520px;
+    border-radius: 2rem;
+    color: aliceblue;
+    padding: 5px 15px;
+    flex-wrap: wrap;
+}
+
+
+textarea{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-wrap: wrap;
+    border-radius: 4rem;
+    width: 1000px;
+    height: 500px;
+    left: 455px;
+    bottom: -1050px
+}
+
+@media (max-width:744px){
+
+    .encabezado{
+        width: 100%;
+        height: 4rem;
+    }
+    .encabezado p{
+        font-size: 2.5rem
+    }
+    .naVbar{
+        margin-top: -4.9rem;
+        margin-left: 13rem;
+        gap: 0.9rem;
+        font-size: 1.4rem
+        
+    }
+    .tituloYSubtitulo img{
+        width: 100%;
+        height: 27rem;
+    }
+    footer{
+        font-size: 1.1rem;
+        height: 21rem;
+    }
+    .contActos h3{
+        padding-bottom: 30px;
+    }
+    .contActos p{
+        padding-bottom: 33px;
+        padding-left: 15px;
+}
+    .reDes h3{
+        padding-bottom: 30px;
+    }
+    
+    .reDes p{
+        padding-bottom: 27px;
+        padding-left: 15px;
+    }
+
+    .viDas{
+        font-size: 1.5rem;
+        margin-top: -11rem;
+        margin-left: 37rem;
+        height: 1rem;
+    }
+.tituloYSubtitulo h1{
+    margin-top: -17rem;
+    font-size: 3rem;
+}
+.tituloYSubtitulo h2{
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+.sectionParrafoUno{
+        height: 30rem;
+    margin-top: -43rem;
+}
+.sectionParrafoUno h2{
+    font-size: 2.5rem;
+    width: 27rem;
+}
+.parrAfouno{
+    font-size: 1.7rem;
+    width: 20rem;
+    height: 8rem;
+    padding: 13px 10px;
+    margin-top: -52rem;
+    margin-left: 1.5rem;
+}
+.parrAfodos{
+    font-size: 1.7rem;
+    width: 20rem;
+    height: 7rem;
+    margin-top: 4rem;
+    padding: 13px 10px;
+    margin-left: 1.5rem;
+}
+.conFiarr{
+    width: 100%;
+    height: 50rem;
+
+}
+.conFiarr h2{
+    height: 7rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+
+}
+.conFiarr2 img{
+    width: 12rem ;
+    height: 16rem;
+}
+.conFiar p{
+    font-size: 1.2rem;
+    width: 12rem;
+    height: 12rem;
+    margin-top: 2rem;
+    padding: 20px 20px;
+}
+.soMos{
+    width: 100%;
+    height: 110rem;
+}
+
+.soMos h2{
+    font-size: 8rem;
+}
+
+.soMos h3{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+
+}
+
+.parrAfos{
+    left: 3.2rem;
+    top: 90rem;
+    gap: 2rem;
+}
+
+
+
+.soMos p{
+    font-size: 1.2rem;
+    width: 12rem;
+    height: 17rem;
+    padding: 20px 20px;
+}
+
+.imgsTexto{
+    width: 100%;
+    height: 140rem;
+}
+
+.lucasImagen{ 
+    width: 20rem;
+    height: 15rem;
+    left: 28%;
+    top: 100px;
+}
+
+.texTolucas{
+    width: 20.5rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 18px 34px;
+    left: 28%;
+    top: 400px;
+}
+
+.pepeImagen{
+    width: 20rem;
+    height: 15rem;
+    left: 28.5%;
+    top: 600px;
+}
+
+.pepeTexto{
+    left: 28%;
+    top: 900px;
+    width: 20.5rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 40px 34px;
+
+}
+
+.joseImagen{
+    width: 20rem;
+    height: 15rem;
+    left: 28.5%;
+    top: 1120px;
+
+}
+
+
+.joseTexto{
+    left: 28%;
+    top: 1400px;
+    width: 20.5rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 15px 35px;
+}
+
+
+.andreaImagen{
+
+    width: 20.5rem;
+    height: 15rem;
+    left: 28%;
+    top: 1600px;
+}
+
+.andreTexto{
+
+    left: 28%;
+    top: 1900px;
+    width: 20.5rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 18px 34px;
+}
+
+.doNaciones {
+    width: 100%;
+    height: 130rem;
+}
+
+.tituloDonar{
+    font-size: 3.5rem;
+    width: 40rem;
+    height: 6rem;
+    top:5rem;
+    padding: 15px 50px;
+    left: 60px;
+}
+
+.textoDonar{
+    right: -100px;
+    font-size: 2rem;
+    width: 35rem;
+    height: 15rem;
+    padding: 40px 38px;
+    top: 14rem;
+}
+
+button{
+    font-size: 2rem;
+    padding: 1rem 4rem;
+    left: 265px;
+    bottom: 50px;
+}
+
+
+
+.paYpal{
+    width: 11.6rem;
+    height: 6rem;
+    top: 430px;
+    left: 150px;
+}
+
+.merCado{
+    width: 12rem;
+    height: 6rem;
+    top: 335px;
+    left: 280px;
+
+}
+
+.viSa{
+    width: 12rem;
+    height: 6rem;
+    top: 239px;
+    left: 420px;
+}
+
+
+.botoNsugerencia{
+    top: 1050px;
+    left: 250px;
+    width: 3rem;
+    height: 1rem;
+}
+
+.botoNsugerencia img{
+    top: -2px;
+    left: 3.5rem;
+}
+
+.sugeRencias{
+    width: 100%;
+    height: 90rem;
+}
+
+
+.tituLosugerencia{
+    width: 35rem;
+    height: 6rem;
+    font-size: 3rem;
+    left: 100px;
+    top: 100px;
+    padding: 22px 93px;
+}
+
+.tituLosugerencia2{
+    left: 100px;
+    font-size: 2rem;
+    width: 35rem;
+    height: 15rem;
+    padding: 25px 38px;
+    top: 22rem;
+    
+}
+label{
+    width: 250px;
+    height: 50px;
+    font-size: 1.3rem;
+    left: 90px;
+    bottom: 20px;
+    padding: 10px 15px;
+}
+textarea{
+    width: 600px;
+    height: 300px;
+    left: 80px;
+    top: 820px
+}
+
+
+
+}
+
+
+@media (max-width:320px){
+
+.encabezado{
+        width: 100%;
+        height: 4.5rem;
+    }
+.encabezado p{
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-left: 5rem;
+    }
+.naVbar{
+    width: 20rem;
+    font-size: 12.5px;
+    margin-left: -0.5rem;
+    margin-top: -2.5rem;
+
+    }
+.tituloYSubtitulo img{
+        width: 100%;
+        height: 13rem;
+    }
+
+.tituloYSubtitulo h1{
+    font-size: 1.5rem;
+        margin-top: -8rem;
+        margin-right: 0.5rem;
+}
+.tituloYSubtitulo h2{
+    font-size: 12px;
+        margin-right: 0.5rem;
+}
+
+.sectionParrafoUno{
+    width: 100%;
+    height: 16.5rem;
+    margin-top: -60rem;
+}
+
+.sectionParrafoUno h2{
+    font-size: 1rem;
+    width: 13rem;
+    padding-top: 5.2rem;
+    margin-left: 0.7rem;
+    margin-top: -3rem;
+
+}
+.parrAfouno{
+    font-size: 0.6rem;
+    width: 7rem;
+    height: 4.2rem;
+    margin-bottom: -2rem;
+    margin-left: 0.8rem;
+    border-radius: 1rem;
+    padding: 10px;
+
+}
+.parrAfodos{
+    font-size: 0.6rem;
+    width: 7rem;
+    height: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 0.8rem;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.conFiarr{
+    width: 100%;
+    height: 120rem;
+}
+.conFiarr h2{
+    width: 17.5rem;
+    height: 15rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+
+}
+.conFiarr2 img{
+    width: 12rem ;
+    height: 16rem;
+    margin-top: 1rem;
+}
+.conFiar p{
+    font-size: 1.2rem;
+    width: 12rem;
+    height: 10.5rem;
+    margin-top: 2rem;
+    padding: 15px 20px;
+}
+
+footer{
+    width: 100%;
+    font-size: 1rem;
+    height: 37rem;
+    gap: 0.7rem;
+}
+
+
+.soMos{
+    width: 100%;
+    height: 70rem;
+}
+
+.soMos h2{
+    font-size: 4.5rem;
+}
+
+.soMos h3{
+    font-size: 1.5rem;
+}
+
+.parrAfos{
+    font-size: 0.7rem;
+    height: 4.5rem;
+    top: 53rem;
+    left: 0.3rem;
+    gap: 1rem;
+}
+.parrAfos p{
+    font-size: 0.7rem;
+    width: 15rem;
+    height: 5rem;
+    padding: 13px 18px;
+}
+
+
+.imgsTexto{
+    width: 100%;
+    height: 135rem;
+}
+
+.lucasImagen{ 
+    width: 14rem;
+    height: 11rem;
+    left: 15%;
+    top: 100px;
+}
+
+.texTolucas{
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 16px 20px;
+    left: 15%;
+    top: 350px;
+}
+
+.pepeImagen{
+    width: 14rem;
+    height: 11rem;
+    left: 15%;
+    top: 600px;
+}
+
+.pepeTexto{
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 15%;
+    top: 850px;
+    padding: 25px 20px;
+
+}
+
+.joseImagen{
+    width: 14rem;
+    height: 11rem;
+    left: 15%;
+    top: 1120px;
+
+}
+
+
+.joseTexto{
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 15%;
+    top: 1350px;
+    font-size: 1.3rem;
+    padding: 15px 20px;
+}
+
+
+.andreaImagen{
+
+    width: 14rem;
+    height: 11rem;
+    left: 15%;
+    top: 1600px;
+}
+
+.andreTexto{
+
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 15%;
+    top: 1850px;
+    padding: 18px 20px;
+}
+
+
+.doNaciones {
+    width: 100%;
+    height: 80rem;
+}
+
+.tituloDonar{
+    font-size: 2rem;
+    width: 18rem;
+    height: 5rem;
+    top: 5rem;
+    padding: 5px 50px;
+    left: 1.1rem ;
+    border-radius: 1.2rem;
+}
+
+.textoDonar{
+    right: -1rem;
+    font-size: 1.2rem;
+    width: 18rem;
+    height: 10rem;
+    padding: 15px 38px;
+    top: 11rem;
+    border-radius: 1rem;
+}
+
+button{
+    font-size: 2rem;
+    padding: 1rem 4rem;
+    left: 50px;
+    bottom: -70px;
+}
+
+
+.paYpal{
+    width: 10rem;
+    height: 5rem;
+    top: 360px;
+    left: -15px;
+}
+
+.merCado{
+    width: 10rem;
+    height: 5rem;
+    top: 280px;
+    left: 80px;
+}
+
+.viSa{
+    width: 10rem;
+    height: 5rem;
+    top: 202px;
+    left: 180px;
+}
+
+
+.botoNsugerencia{
+    top: 30rem;
+    left: 5.9rem;
+    width: 2rem;
+    height: 0.5rem;
+    padding: 26px 65px;
+}
+
+.botoNsugerencia img{
+    top: -4px;
+    left: 1.8rem;
+    width: 70px ;
+}
+
+.sugeRencias{
+    width: 100%;
+    height: 40rem;
+}
+
+
+.tituLosugerencia{
+    width: 16rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    left: 35px;
+    top: 60px;
+    padding: 20px 15px;
+}
+
+.tituLosugerencia2{
+    left: 2.2rem;
+    font-size: 1rem;
+    width: 16rem;
+    height: 8rem;
+    padding: 15px 5px;
+    top: 15rem;
+    border-radius: 1rem;
+}
+label{
+    width: 10rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    left: 2.1rem;
+    bottom: 6.5rem;
+    padding: 10px 15px;
+}
+textarea{
+    width: 250px;
+    height: 110px;
+    left: 37px;
+    top: 30rem;
+    border-radius: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
