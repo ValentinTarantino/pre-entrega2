@@ -46,8 +46,8 @@ footer{
     background-size: cover;
     background-position: center;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    padding: 50px 0px 0px 40px;
     gap: 10rem;
     height: 30rem;
     color: aliceblue;
@@ -56,35 +56,26 @@ footer{
     text-decoration : none;
 }
 
-.contActos h3{
-    padding-bottom: 35px;
+.contActos div h3{
+    font-size: 4rem;
 }
 
 .contActos p{
     display: inline-flex;
-    padding-bottom: 35px;
     padding-left: 25px;
     
 }
-.contActos li{
-    list-style: none;
-    text-decoration: none;
-}
 
-.reDes h3{
-    padding-bottom: 35px;
+.reDes div h3{
+    font-size: 4rem;
 }
 
 .reDes p{
     display: inline-flex;
-    padding-bottom: 35px;
     padding-left: 25px;
 }
 
-.reDes li{
-    list-style: none;
-    text-decoration: none;
-}
+
 
 
 .naVbar{
@@ -113,7 +104,7 @@ footer{
     background-position: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 70rem;
+    height: 78rem;
 }
 
 .tituloYSubtitulo h1{
@@ -143,11 +134,12 @@ footer{
 
 .sectionParrafoUno h2{
     font-family: "Judson", sans-serif;
-    font-size: 6.65rem;
+    font-size: 6.5rem;
     color: aliceblue;
     width: 80.5rem;
     height: 60rem;
     margin-left: 2rem;
+    margin-top: 7rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -184,7 +176,7 @@ footer{
     background-color: rgba(0, 0, 0, 0.442);
     width: 38%;
     margin-left: 3rem;
-    margin-top: 14rem;
+    margin-top: 12rem;
     padding: 20px 40px;
     border-radius:2rem;
     flex-wrap: wrap;
@@ -249,9 +241,6 @@ footer{
 
 
 
-
-
-
 .soMos {
     background-image: url("../assets/img/perroconchabon.JPG");
     width: 100%;
@@ -294,11 +283,6 @@ footer{
     gap: 7rem;
     flex-wrap: wrap;
 }
-
-.parrAfos li{
-    list-style: none;
-}
-
 
 .soMos p{
     font-family: "Roboto Flex", sans-serif;
@@ -626,20 +610,48 @@ textarea{
     bottom: -1050px
 }
 
+
+.galeRia img{
+    width: 100%;
+    height: 53rem;
+}
+
+.col-lg-4{
+    padding: 40px;
+    padding-top: -100px;
+}
+
+
+.galeRia{
+    width: 100%;
+    height: 125rem;
+    background-image: url("../assets/img/Rectangle\ 44.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
 @media (max-width:1440px){
     .encabezado{
-        height: 7rem;
+        height: 7.5rem;
     }
     .encabezado p{
-        font-size: 5rem
+        font-size: 5rem;
+        margin-top: -9px
     }
-
     .naVbar{
-        font-size: 2.5rem;
-        margin-top: -15px;
-        
+        font-size: 2rem;
+        margin-top: 17px;
+        padding-top: 14px;
+        margin-right: 1rem;
+        gap: 1.3rem;
     }
-
     .tituloYSubtitulo img{
         height: 60rem;
     }
@@ -660,6 +672,7 @@ textarea{
 
     .sectionParrafoUno h2{
     font-size: 6rem;
+    margin-top: 1rem;
 }
 
 .parrAfouno{
@@ -676,7 +689,7 @@ textarea{
 
 }
 .conFiarr{
-    height: 95rem;
+    height: 97rem;
 }
 .conFiarr2 img{
     width: 21rem;
@@ -831,6 +844,10 @@ textarea{
     left: 37.5rem;
     top: 114rem;
 }
+
+
+
+
 }
 
 @media (max-width:1024px){
@@ -843,9 +860,10 @@ textarea{
     }
 
     .naVbar{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin-top: 8px;
         padding-top: 14px;
+        margin-right: 1rem;
         gap: 1rem;
     }
 
@@ -1058,6 +1076,14 @@ textarea{
     left: 24.3rem;
 }
 
+.galeRia{
+    height: 90rem;
+}
+.galeRia img{
+    width: 100%;
+    height: 28rem;
+}
+
 
 }
 
@@ -1069,13 +1095,14 @@ textarea{
         height: 4rem;
     }
     .encabezado p{
-        font-size: 2.5rem
+        font-size: 2.5rem;
+        margin-bottom: -2rem;
     }
-    .naVbar{
-        margin-top: -3.3rem;
+        .naVbar{
+        margin-top: -1.5rem;
         margin-left: 14.5rem;
         gap: 1rem;
-        font-size: 1.4rem
+        font-size: 1.1rem
     }
     .tituloYSubtitulo img{
         width: 100%;
