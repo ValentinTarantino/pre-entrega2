@@ -11,7 +11,6 @@
 .encabezado{
     display: flex;
     justify-content: space-between;
-    padding: .625rem 1.25rem;
     width: 100%;
     height: 10rem;
     flex-wrap: wrap;
@@ -23,6 +22,7 @@
 .encabezado p{
     font-family: "Italianno", sans-serif;
     display: flex;
+    padding-left: 1rem;
     flex-wrap: wrap;
     align-items: center;
     color: white;
@@ -46,8 +46,8 @@ footer{
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    padding: 40px 0px 0px 50px;
     gap: 10rem;
     height: 30rem;
     color: aliceblue;
@@ -58,12 +58,13 @@ footer{
 
 .contActos div h3{
     font-size: 4rem;
+
 }
 
 .contActos p{
     display: inline-flex;
     padding-left: 25px;
-    
+    padding-top: 1.5rem;
 }
 
 .reDes div h3{
@@ -73,6 +74,7 @@ footer{
 .reDes p{
     display: inline-flex;
     padding-left: 25px;
+    padding-top: 1.5rem;
 }
 
 
@@ -83,7 +85,8 @@ footer{
     display: flex;
     gap: 2rem;
     font-size: 3rem;
-    padding-top: 2.5rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
     flex-wrap: wrap;
     
 }
@@ -625,7 +628,7 @@ textarea{
 .galeRia{
     width: 100%;
     height: 125rem;
-    background-image: url("../assets/img/Rectangle\ 44.png");
+    background-image: url("../assets/img/fotogaleria3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -639,7 +642,7 @@ textarea{
 
 @media (max-width:1440px){
     .encabezado{
-        height: 7.5rem;
+        height: 7rem;
     }
     .encabezado p{
         font-size: 5rem;
@@ -689,7 +692,7 @@ textarea{
 
 }
 .conFiarr{
-    height: 97rem;
+    height: 97.5rem;
 }
 .conFiarr2 img{
     width: 21rem;
@@ -704,21 +707,21 @@ textarea{
 }
 
 .soMos {
-    height: 175rem;
+    height: 97.5rem;
 }
 
 .soMos h2{
-    font-size: 13rem;
+    font-size: 10rem;
 
 }
 
 .soMos h3{
-    font-size: 6rem;
+    font-size: 4rem;
 
 }
 
 .parrAfos{
-    padding-top: 50rem;
+    margin-top: -18rem;
     margin-right: 11rem;
 }
 .parrAfos p{
@@ -727,62 +730,71 @@ textarea{
     height: 20rem;
 }
 
+.imgsTexto{
+    height: 97.5rem;
+}
 .lucasImagen{ 
-    width: 35rem;
-    height: 25rem;
-    left: 6rem;
-    top: 5rem;
+    width: 27rem;
+    height: 20rem;
+    left: 13rem;
+    top: 3rem;
 }
 
 .texTolucas{
-    width: 38rem;
-    height: 24rem;
-    font-size: 2.8rem;
-    padding: 50px 40px;
-    top: 5rem;
+    width: 30rem;
+    height: 20rem;
+    font-size: 2.5rem;
+    padding: 40px 40px;
+    top: 3rem;
     left: 47rem;
 }
 
 .pepeImagen{
-    width: 35rem;
-    height: 25rem;
+    width: 27rem;
+    height: 20rem;
     left: 49rem;
+    top: 26rem;
 }
 
 .pepeTexto{
-    width: 38rem;
-    height: 24rem;
-    font-size: 2.8rem;
-    padding: 100px 40px;
-    left: 7rem;
+    width: 30rem;
+    height: 20rem;
+    font-size: 2.5rem;
+    padding: 30px 40px;
+    top: 26rem;
+    left: 11.5rem;
 }
 
 .joseImagen{
-    width: 35rem;
-    height: 25rem;
-    left: 6rem;
+    width: 27rem;
+    height: 20rem;
+    left: 13rem;
+    top: 49rem;
 }
 
 .joseTexto{
-    width: 38rem;
-    height: 24rem;
-    font-size: 2.8rem;
-    padding: 35px 60px;
+    width: 30rem;
+    height: 20rem;
+    font-size: 2.5rem;
+    padding: 20px 45px;
     left: 46rem;
+    top: 49rem;
 }
 
 .andreaImagen{
-    width: 35rem;
-    height: 25rem;
+    width: 27rem;
+    height: 20rem;
     left: 49rem;
+    top: 73rem;
 }
 
 .andreTexto{
-    width: 38rem;
-    height: 24rem;
-    font-size: 2.8rem;
-    padding: 60px 40px;
-    left: 7rem;
+    width: 30rem;
+    height: 20rem;
+    font-size: 2.5rem;
+    padding: 30px 40px;
+    top: 73rem;
+    left: 11.5rem;
 }
 
 .doNaciones {
@@ -845,7 +857,9 @@ textarea{
     top: 114rem;
 }
 
-
+.galeRia img{
+    height: 40rem;
+}
 
 
 }
@@ -861,11 +875,28 @@ textarea{
 
     .naVbar{
         font-size: 1.5rem;
-        margin-top: 8px;
-        padding-top: 14px;
+        margin-top: 1rem;
         margin-right: 1rem;
         gap: 1rem;
     }
+
+footer{
+    gap: 6rem;
+}
+
+.contActos div h3{
+    font-size: 3rem;
+}
+
+.contActos p{
+    padding-top: 3rem;
+}
+.reDes p{
+    padding-top: 3rem;
+}
+.reDes div h3{
+    font-size: 3rem;
+}
 
     .tituloYSubtitulo img{
         height: 40rem;
@@ -927,6 +958,7 @@ footer{
 }
 
 
+
 .soMos h2{
     font-size: 10rem;
 }
@@ -937,13 +969,13 @@ footer{
 }
 
 .parrAfos{
-    gap: 4rem;
-    margin-top: -20rem;
+    gap: 2rem;
+    margin-top: -24rem;
 }
 .parrAfos p{
-    font-size: 2rem;
-    width: 40rem;
-    height: 13rem;
+    font-size: 1.3rem;
+    width: 30rem;
+    height: 7.7rem;
     padding: 20px 20px;
 }
 
@@ -979,7 +1011,7 @@ footer{
     height: 17.5rem;
     font-size: 2rem;
     padding: 40px 40px;
-    left: 4rem;
+    left: 5rem;
     top: 30rem;
 }
 
@@ -1011,7 +1043,7 @@ footer{
     height: 17.5rem;
     font-size: 2rem;
     padding: 30px 40px;
-    left: 4rem;
+    left: 5rem;
     top: 80rem;
 }
 
@@ -1077,7 +1109,7 @@ textarea{
 }
 
 .galeRia{
-    height: 90rem;
+    height: 70rem;
 }
 .galeRia img{
     width: 100%;
@@ -1100,31 +1132,32 @@ textarea{
     }
         .naVbar{
         margin-top: -1.5rem;
-        margin-left: 14.5rem;
+        margin-left: 15rem;
         gap: 1rem;
-        font-size: 1.1rem
+        font-size: 1rem
     }
+
     .tituloYSubtitulo img{
         width: 100%;
         height: 30rem;
     }
-    footer{
-        font-size: 1.1rem;
-        height: 21rem;
-    }
-    .contActos h3{
-        padding-bottom: 30px;
+    .contActos div h3{
+        font-size: 1.8rem;
     }
     .contActos p{
-        padding-bottom: 33px;
-        padding-left: 15px;
+        font-size: 1.5rem;
+        padding-top: 1.6rem;
+        padding-left: 2rem;
     }
-    .reDes h3{
-        padding-bottom: 30px;
+    .reDes div h3{
+        font-size: 1.8rem;
+        padding-bottom: 1.7rem;
+        padding-left: 2rem;
     }
     .reDes p{
-        padding-bottom: 27px;
-        padding-left: 15px;
+        font-size: 1.5rem;
+        padding-top: 1.3rem;
+        padding-left: 1rem;
     }
 
 
@@ -1200,7 +1233,7 @@ textarea{
 
 .parrAfos{
     left: 11rem;
-    top: 50rem;
+    top: 104rem;
     gap: 2rem;
 }
 
@@ -1396,11 +1429,19 @@ textarea{
 }
 
 
+.galeRia{
+    height: 98rem;
+}
+
+.galeRia img{
+    height: 28rem;
+}
+
 
 }
 
 
-@media (max-width:744px){
+/* @media (max-width:744px){
 
     .encabezado{
         width: 100%;
@@ -1707,7 +1748,7 @@ textarea{
 
 
 
-}
+} */
 
 @media (max-width:425px){
     .encabezado{
@@ -1829,7 +1870,7 @@ footer{
 
 .parrAfos{
     left: 4.7rem;
-    top: 25rem;
+    top: 80rem;
 }
 
 
@@ -2022,6 +2063,13 @@ textarea{
     width: 70px ;
 }
 
+.galeRia{
+    height: 115rem;
+}
+
+.galeRia img{
+    height: 18rem;
+}
 
 
 }
@@ -2148,7 +2196,7 @@ footer{
 
 .parrAfos{
     left: 4.5rem;
-    top: 25rem;
+    top: 80rem;
 }
 
 
@@ -2340,6 +2388,13 @@ textarea{
     left: 1.8rem;
     width: 70px ;
 }
+.galeRia{
+    height: 115rem;
+}
+
+.galeRia img{
+    height: 18rem;
+}
 
 
 
@@ -2356,20 +2411,17 @@ textarea{
 
 .encabezado{
         width: 100%;
-        height: 4.5rem;
+        height: 5rem;
     }
 .encabezado p{
     font-size: 2rem;
     margin-bottom: -2.5rem;
     margin-left: 5rem;
-
     }
 .naVbar{
-    width: 19rem;
-    font-size: 12.5px;
-    margin-left: -0.5rem;
+    font-size: 9px;
+    margin-left: 1.2rem;
     margin-top: 1.1rem;
-
     }
 .tituloYSubtitulo img{
         width: 100%;
@@ -2447,10 +2499,12 @@ textarea{
 }
 
 footer{
-    width: 100%;
-    font-size: 1rem;
-    height: 37rem;
-    gap: 0.7rem;
+    padding: 20px 20px;
+}
+
+.contActos p{
+    font-size: 0.9rem;
+
 }
 
 
@@ -2470,7 +2524,7 @@ footer{
 .parrAfos{
     font-size: 0.7rem;
     height: 4.5rem;
-    top: 24rem;
+    top: 78rem;
     left: 2.5rem;
     gap: 1rem;
 }
@@ -2671,9 +2725,13 @@ textarea{
     border-radius: 1.2rem;
 }
 
+.galeRia{
+    height: 115rem;
+}
 
-
-
+.galeRia img{
+    height: 18rem;
+}
 
 
 
