@@ -11,10 +11,13 @@
 .encabezado{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header{
+    background-image: url("../assets/img/Encabezado.png");
     width: 100%;
     height: 10rem;
-    flex-wrap: wrap;
-    background-image: url("../assets/img/Encabezado.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -39,6 +42,16 @@
     flex-wrap: wrap;
 }
 
+.naVbar{
+    font-family: "Judson", sans-serif;
+    display: flex;
+    gap: 2rem;
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
+    flex-wrap: wrap;
+    
+}
 
 footer{
     background-image: url("../assets/img/pie-de-página.png");
@@ -77,19 +90,6 @@ footer{
     padding-top: 1.5rem;
 }
 
-
-
-
-.naVbar{
-    font-family: "Judson", sans-serif;
-    display: flex;
-    gap: 2rem;
-    font-size: 3rem;
-    padding-top: 3rem;
-    padding-right: 1rem;
-    flex-wrap: wrap;
-    
-}
 
 .tituloYSubtitulo {
     font-family: "Judson", sans-serif;
@@ -615,19 +615,21 @@ textarea{
 
 
 .galeRia img{
+    position: relative;
+    top: 15rem;
     width: 100%;
     height: 53rem;
 }
 
 .col-lg-4{
-    padding: 40px;
+    padding: 11px;
     padding-top: -100px;
 }
 
 
 .galeRia{
     width: 100%;
-    height: 125rem;
+    height: 160rem;
     background-image: url("../assets/img/fotogaleria3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -635,8 +637,33 @@ textarea{
     flex-wrap: wrap;
 }
 
+.galeRia p{
+    display: flex;
+    justify-content: center;
+    font-size: 6.25rem;
+    font-family: "Judson", sans-serif; color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 1rem;
+    width: 75%;
+    position: relative;
+    top: 10rem;
+    left: 15rem;
+}
 
+.navBoost p{
+    font-family: "Italianno", sans-serif;
+    font-size: 6rem;
+    padding-bottom: 1.2rem;
+}
 
+.navBoost ul li{
+    font-family: "Judson", sans-serif;
+    gap: 2rem;
+    font-size: 3rem;
+    padding-bottom: 2.1rem;
+    padding-right: 0.6rem;
+    flex-wrap: wrap;
+}
 
 
 
@@ -857,10 +884,34 @@ textarea{
     top: 114rem;
 }
 
+.galeRia{
+    height: 90rem;
+}
+
 .galeRia img{
     height: 40rem;
 }
+.navBoost{
+    height: 7rem
+}
 
+.navBoost p{
+    font-size: 5rem;
+        margin-top: -9px
+}
+
+.navBoost ul li{
+    font-size: 2rem;
+
+}
+
+.galeRia{
+    height: 115rem;
+}
+
+.galeRia p{
+    font-size: 5rem;
+}
 
 }
 
@@ -1109,16 +1160,37 @@ textarea{
 }
 
 .galeRia{
-    height: 70rem;
+    height: 90rem;
 }
 .galeRia img{
     width: 100%;
     height: 28rem;
 }
 
-
+.galeRia p{
+    font-size: 3rem;
+    left: 9rem;
 }
 
+
+.navBoost{
+    height: 6rem
+}
+
+.navBoost p{
+    font-size: 4rem;
+        margin-top: -9px
+}
+
+.navBoost ul li{
+    font-size: 1.5rem;
+    gap: 4rem;
+}
+
+
+
+
+}
 
 
 @media (max-width:768px){
@@ -1128,11 +1200,11 @@ textarea{
     }
     .encabezado p{
         font-size: 2.5rem;
-        margin-bottom: -2rem;
+        margin-bottom: -0.5rem;
     }
         .naVbar{
-        margin-top: -1.5rem;
-        margin-left: 15rem;
+        margin-bottom: 2rem;
+        margin-left: 6.5rem;
         gap: 1rem;
         font-size: 1rem
     }
@@ -1141,23 +1213,22 @@ textarea{
         width: 100%;
         height: 30rem;
     }
+    footer{
+        font-size: 1.1rem;
+        height: 21rem;
+    }
+
     .contActos div h3{
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
     .contActos p{
-        font-size: 1.5rem;
-        padding-top: 1.6rem;
-        padding-left: 2rem;
+        padding-left: 15px;
     }
     .reDes div h3{
-        font-size: 1.8rem;
-        padding-bottom: 1.7rem;
-        padding-left: 2rem;
+        font-size: 3rem;
     }
     .reDes p{
-        font-size: 1.5rem;
-        padding-top: 1.3rem;
-        padding-left: 1rem;
+        padding-left: 15px;
     }
 
 
@@ -1430,325 +1501,36 @@ textarea{
 
 
 .galeRia{
-    height: 98rem;
+    height: 115rem;
 }
+
 
 .galeRia img{
-    height: 28rem;
-}
-
-
-}
-
-
-/* @media (max-width:744px){
-
-    .encabezado{
-        width: 100%;
-        height: 4rem;
-    }
-    .encabezado p{
-        font-size: 2.5rem
-    }
-    .naVbar{
-        margin-top: -3.3rem;
-        margin-left: 14.5rem;
-        gap: 1rem;
-        font-size: 1.3rem
-    }
-    .tituloYSubtitulo img{
-        width: 100%;
-        height: 30rem;
-    }
-    footer{
-        font-size: 1.1rem;
-        height: 21rem;
-    }
-    .contActos h3{
-        padding-bottom: 30px;
-    }
-    .contActos p{
-        padding-bottom: 33px;
-        padding-left: 15px;
-    }
-    .reDes h3{
-        padding-bottom: 30px;
-    }
-    .reDes p{
-        padding-bottom: 27px;
-        padding-left: 15px;
-    }
-
-
-.tituloYSubtitulo h1{
-    margin-top: -33rem;
-    font-size: 3.5rem;
-}
-.tituloYSubtitulo h2{
-    margin-right: 20px;
-    font-size: 1.8rem;
-}
-.sectionParrafoUno{
-        height: 35rem;
-    margin-top: -43rem;
-}
-.sectionParrafoUno h2{
-    font-size: 2.5rem;
-    width: 27rem;
-    padding-top: 3rem;
-}
-.parrAfouno{
-    font-size: 1.7rem;
-    width: 20rem;
-    height: 8rem;
-    padding: 13px 10px;
-    margin-top: -48rem;
-    margin-left: 1.5rem;
-}
-.parrAfodos{
-    font-size: 1.7rem;
-    width: 20rem;
-    height: 7rem;
-    margin-top: 13rem;
-    padding: 13px 10px;
-    margin-left: 1.5rem;
-}
-.conFiarr{
     width: 100%;
-    height: 50rem;
-
-}
-.conFiarr h2{
-    height: 7rem;
-    font-size: 2.5rem;
-    margin-top: 1rem;
-
-}
-.conFiarr2 img{
-    width: 12rem ;
-    height: 16rem;
-}
-.conFiar p{
-    font-size: 1.2rem;
-    width: 12rem;
-    height: 12rem;
-    margin-top: 2rem;
-    padding: 20px 20px;
-}
-.soMos{
-    width: 100%;
-    height: 110rem;
+    height: 27.5rem;
 }
 
-.soMos h2{
-    font-size: 8rem;
-}
-
-.soMos h3{
-    font-size: 2.5rem;
-    margin-top: 1rem;
-
-}
-
-.parrAfos{
-    left: 10rem;
-    top: 50rem;
-    gap: 2rem;
-}
-
-
-
-.soMos p{
-    font-size: 1.2rem;
-    width: 25rem;
-    height: 8rem;
-    padding: 20px 20px;
-}
-
-.imgsTexto{
-    width: 100%;
-    height: 140rem;
-}
-
-.lucasImagen{ 
-    width: 20rem;
-    height: 15rem;
-    left: 29%;
-    top: 100px;
-}
-
-.texTolucas{
-    width: 20.5rem;
-    height: 10rem;
-    font-size: 1.3rem;
-    padding: 18px 34px;
-    left: 29%;
-    top: 400px;
-}
-
-.pepeImagen{
-    width: 20rem;
-    height: 15rem;
-    left: 29%;
-    top: 600px;
-}
-
-.pepeTexto{
-    left: 29%;
-    top: 900px;
-    width: 20.5rem;
-    height: 10rem;
-    font-size: 1.3rem;
-    padding: 40px 34px;
-
-}
-
-.joseImagen{
-    width: 20rem;
-    height: 15rem;
-    left: 29%;
-    top: 1120px;
-
-}
-
-
-.joseTexto{
-    left: 29%;
-    top: 1400px;
-    width: 20.5rem;
-    height: 10rem;
-    font-size: 1.3rem;
-    padding: 15px 35px;
-}
-
-
-.andreaImagen{
-
-    width: 20.5rem;
-    height: 15rem;
-    left: 29%;
-    top: 1600px;
-}
-
-.andreTexto{
-
-    left: 29%;
-    top: 1900px;
-    width: 20.5rem;
-    height: 10rem;
-    font-size: 1.3rem;
-    padding: 18px 34px;
-}
-
-.doNaciones {
-    width: 100%;
-    height: 110rem;
-}
-
-.tituloDonar{
-    font-size: 3.5rem;
-    width: 40rem;
-    height: 6rem;
-    top:5rem;
-    padding: 15px 50px;
-    left: 60px;
-}
-
-.textoDonar{
-    right: -100px;
+.galeRia p{
     font-size: 2rem;
-    width: 35rem;
-    height: 15rem;
-    padding: 40px 38px;
-    top: 14rem;
+    left: 7rem;
 }
 
-button{
-    font-size: 2rem;
-    padding: 1rem 4rem;
-    left: 265px;
-    bottom: 50px;
+.navBoost{
+    height: 4rem
 }
 
-
-
-.paYpal{
-    width: 11.6rem;
-    height: 6rem;
-    top: 430px;
-    left: 150px;
+.navBoost p{
+    font-size: 2.5rem;
+        margin-top: -9px
 }
 
-.merCado{
-    width: 12rem;
-    height: 6rem;
-    top: 335px;
-    left: 280px;
+.navBoost ul li{
+    font-size: 1rem;
+    gap: 4rem;
+}
 
 }
 
-.viSa{
-    width: 12rem;
-    height: 6rem;
-    top: 239px;
-    left: 420px;
-}
-
-
-.botoNsugerencia{
-    top: 1050px;
-    left: 250px;
-    width: 3rem;
-    height: 1rem;
-}
-
-.botoNsugerencia img{
-    top: -2px;
-    left: 3.5rem;
-}
-
-.sugeRencias{
-    width: 100%;
-    height: 90rem;
-}
-
-
-.tituLosugerencia{
-    width: 35rem;
-    height: 6rem;
-    font-size: 3rem;
-    left: 100px;
-    top: 100px;
-    padding: 22px 93px;
-}
-
-.tituLosugerencia2{
-    left: 100px;
-    font-size: 2rem;
-    width: 35rem;
-    height: 15rem;
-    padding: 25px 38px;
-    top: 22rem;
-    
-}
-label{
-    width: 250px;
-    height: 50px;
-    font-size: 1.3rem;
-    left: 90px;
-    bottom: 20px;
-    padding: 10px 15px;
-}
-textarea{
-    width: 600px;
-    height: 300px;
-    left: 80px;
-    top: 820px
-}
-
-
-
-} */
 
 @media (max-width:425px){
     .encabezado{
@@ -1853,6 +1635,7 @@ footer{
     gap: 0.7rem;
     flex-direction: column;
 }
+
 
 .soMos{
     width: 100%;
@@ -2064,13 +1847,35 @@ textarea{
 }
 
 .galeRia{
-    height: 115rem;
+    height: 120rem;
 }
 
 .galeRia img{
     height: 18rem;
 }
 
+
+.galeRia p{
+    font-size: 2rem;
+    left: 7rem;
+}
+
+.navBoost{
+    height: 5rem
+}
+
+.navBoost p{
+    width: 5rem;
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-right: 8rem;
+}
+
+.navBoost ul li{
+    font-size: 0.78rem;
+    margin-right: 2rem;
+    margin-bottom: -11rem;
+}
 
 }
 
@@ -2419,10 +2224,10 @@ textarea{
     margin-left: 5rem;
     }
 .naVbar{
-    font-size: 9px;
-    margin-left: 1.2rem;
+    margin-left: 1.1rem;
     margin-top: 1.1rem;
     }
+    
 .tituloYSubtitulo img{
         width: 100%;
         height: 13rem;
