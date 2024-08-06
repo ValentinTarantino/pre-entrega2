@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 
@@ -622,14 +623,14 @@ textarea{
 }
 
 .col-lg-4{
-    padding: 11px;
+    padding: 10px;
     padding-top: -100px;
 }
 
 
 .galeRia{
     width: 100%;
-    height: 160rem;
+    height: 153rem;
     background-image: url("../assets/img/fotogaleria3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -650,20 +651,19 @@ textarea{
     left: 15rem;
 }
 
-.navBoost p{
+.navBoost h2{
     font-family: "Italianno", sans-serif;
     font-size: 6rem;
-    padding-bottom: 1.2rem;
 }
 
 .navBoost ul li{
     font-family: "Judson", sans-serif;
-    gap: 2rem;
     font-size: 3rem;
-    padding-bottom: 2.1rem;
+    padding-bottom: -2.5rem;
     padding-right: 0.6rem;
     flex-wrap: wrap;
 }
+
 
 
 
@@ -843,7 +843,7 @@ textarea{
 }
 
 button{
-    bottom: -12rem;
+    bottom: -18rem;
     left: 34.5rem;
 }
 
@@ -885,7 +885,12 @@ textarea{
 }
 
 .galeRia{
-    height: 90rem;
+    height: 125rem;
+}
+
+.galeRia p{
+    font-size: 5rem;
+    left: 13rem;
 }
 
 .galeRia img{
@@ -901,17 +906,21 @@ textarea{
 }
 
 .navBoost ul li{
-    font-size: 2rem;
-
+    font-size: 1.5rem;
 }
 
-.galeRia{
-    height: 115rem;
-}
-
-.galeRia p{
+.navBoost h2{
     font-size: 5rem;
+    margin-top: -20px;
+    font-family: "Italianno", sans-serif;
 }
+
+.navBoost ul li{
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: "Judson", sans-serif;
+}
+
 
 }
 
@@ -1184,10 +1193,19 @@ textarea{
 
 .navBoost ul li{
     font-size: 1.5rem;
-    gap: 4rem;
 }
 
+.navBoost h2{
+    font-size: 4rem;
+    margin-top: -20px;
+    font-family: "Italianno", sans-serif;
+}
 
+.navBoost ul li{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-family: "Judson", sans-serif;
+}
 
 
 }
@@ -1501,13 +1519,13 @@ textarea{
 
 
 .galeRia{
-    height: 115rem;
+    height: 105rem;
 }
 
 
 .galeRia img{
     width: 100%;
-    height: 27.5rem;
+    height: 26rem;
 }
 
 .galeRia p{
@@ -1519,14 +1537,16 @@ textarea{
     height: 4rem
 }
 
-.navBoost p{
+.navBoost h2{
     font-size: 2.5rem;
-        margin-top: -9px
+        margin-top: -20px;
+    font-family: "Italianno", sans-serif;
 }
 
 .navBoost ul li{
-    font-size: 1rem;
-    gap: 4rem;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-family: "Judson", sans-serif;
 }
 
 }
@@ -1538,17 +1558,17 @@ textarea{
         height: 4.9rem;
 
     }
-.encabezado p{
-    font-size: 2.2rem;
-    margin-bottom: -1.2rem;
-    margin-left: 8rem;
+    .encabezado p{
+        font-size: 2.2rem;
+        padding-top: 0.5rem;
+        margin-left: 8rem;
+        }
+    .naVbar{
+        width: 20rem;
+        font-size: 10px;
+        margin-left: 3.7rem;
+        margin-top: -0.1rem;
     }
-.naVbar{
-    width: 19rem;
-    font-size: 0.78rem;
-    margin-left: 2.7rem;
-    margin-top: 0.3rem;
-}
 
 
 .tituloYSubtitulo img{
@@ -1608,8 +1628,8 @@ textarea{
 }
 .conFiarr h2{
     width: 24.5rem;
-    height: 15rem;
-    font-size: 3rem;
+    height: 9rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
     margin-left: -0.2rem;
 }
@@ -1856,30 +1876,29 @@ textarea{
 
 
 .galeRia p{
-    font-size: 2rem;
-    left: 7rem;
+    font-size: 1.4rem;
+    left: 3.2rem;
+    top: 7rem;
 }
 
 .navBoost{
-    height: 5rem
+    height: 5.2rem
 }
 
-.navBoost p{
-    width: 5rem;
-    font-size: 2rem;
-    margin-top: -1rem;
-    margin-right: 8rem;
+.navBoost div h2{
+    font-family: "Italianno", sans-serif;
+    padding-top: 10px;
+    font-size: 2.2rem;
 }
 
 .navBoost ul li{
-    font-size: 0.78rem;
-    margin-right: 2rem;
-    margin-bottom: -11rem;
-}
+    font-size: 0.68rem;
+    margin-top: -1px;
+    font-family: "Judson", sans-serif;
 
 }
 
-
+}
 
 
 @media (max-width:375px){
@@ -1890,14 +1909,14 @@ textarea{
     }
 .encabezado p{
     font-size: 2.2rem;
-    margin-bottom: -1.2rem;
-    margin-left: 6.1rem;
+    padding-top: 0.5rem;
+    margin-left: 6.3rem;
     }
 .naVbar{
-    width: 19rem;
-    font-size: 12.5px;
-    margin-left: 1rem;
-    margin-top: 0.3rem;
+    width: 20rem;
+    font-size: 10px;
+    margin-left: 2.2rem;
+    margin-top: 0.7rem;
 }
 
 
@@ -1958,8 +1977,9 @@ textarea{
 }
 .conFiarr h2{
     width: 21rem;
-    height: 15rem;
-    font-size: 3rem;
+    height: 6rem;
+    font-size: 2rem;
+    margin-left: 0.1rem;
     margin-top: 1rem;
 }
 .conFiarr2 img{
@@ -2194,14 +2214,39 @@ textarea{
     width: 70px ;
 }
 .galeRia{
-    height: 115rem;
+    height: 155rem;
 }
 
 .galeRia img{
-    height: 18rem;
+    height: 25em;
+    object-fit: contain;
+
 }
 
+.galeRia p{
+    font-size: 1.4rem;
+    width: 18rem;
+    height: 2.5rem;
+    left: 2.2rem;;
+}
 
+.navBoost{
+    height: 5rem;
+}
+
+.navBoost div h2{
+    padding-top: 10px;
+    font-size: 2.2rem;
+    font-family: "Italianno", sans-serif;
+
+}
+
+.navBoost ul li{
+    font-size: 0.6rem;
+    margin-top: -0.2rem;
+    font-family: "Judson", sans-serif;
+    margin-left: 0.1rem;
+}
 
 }
 
@@ -2303,14 +2348,17 @@ textarea{
     padding: 15px 20px;
 }
 
-footer{
+.foOt{
     padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contActos p{
     font-size: 0.9rem;
 
 }
+
 
 
 .soMos{
@@ -2538,29 +2586,7 @@ textarea{
     height: 18rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+} 
 
 
 
