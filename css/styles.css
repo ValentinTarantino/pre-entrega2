@@ -564,7 +564,7 @@ button{
     color: aliceblue;
     padding: 40px 70px;
     left: 460px;
-    top: 100px;
+    top: 160px;
     flex-wrap: wrap;
 }
 
@@ -620,17 +620,18 @@ textarea{
     top: 15rem;
     width: 100%;
     height: 53rem;
+    object-fit: contain;
 }
 
 .col-lg-4{
-    padding: 10px;
+    padding: 60px;
     padding-top: -100px;
 }
 
 
 .galeRia{
     width: 100%;
-    height: 153rem;
+    height: 215rem;
     background-image: url("../assets/img/fotogaleria3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -638,12 +639,16 @@ textarea{
     flex-wrap: wrap;
 }
 
+.galeRia img{
+    position: relative;
+    top: 20rem;
+}
 .galeRia p{
     display: flex;
     justify-content: center;
     font-size: 6.25rem;
     font-family: "Judson", sans-serif; color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.699);
+    background-color: rgba(0, 0, 0, 0.527);
     border-radius: 1rem;
     width: 75%;
     position: relative;
@@ -653,14 +658,16 @@ textarea{
 
 .navBoost h2{
     font-family: "Italianno", sans-serif;
+    margin-top: 1rem;
     font-size: 6rem;
 }
 
 .navBoost ul li{
     font-family: "Judson", sans-serif;
     font-size: 3rem;
-    padding-bottom: -2.5rem;
-    padding-right: 0.6rem;
+    margin-top: 1rem;
+    padding: 1px 10px ;
+    
     flex-wrap: wrap;
 }
 
@@ -880,21 +887,23 @@ textarea{
 }
 
 .botoNsugerencia{
-    left: 37.5rem;
-    top: 114rem;
+    left: 37rem;
+    top: 107rem;
 }
 
 .galeRia{
-    height: 125rem;
+    height: 170rem;
 }
 
 .galeRia p{
     font-size: 5rem;
+    top: 5rem;
     left: 13rem;
 }
 
 .galeRia img{
     height: 40rem;
+    object-fit: contain;
 }
 .navBoost{
     height: 7rem
@@ -902,7 +911,7 @@ textarea{
 
 .navBoost p{
     font-size: 5rem;
-        margin-top: -9px
+        margin-top: -20px
 }
 
 .navBoost ul li{
@@ -911,16 +920,18 @@ textarea{
 
 .navBoost h2{
     font-size: 5rem;
-    margin-top: -20px;
-    font-family: "Italianno", sans-serif;
+    margin-top: -1px;
 }
 
 .navBoost ul li{
     font-size: 2rem;
-    margin-top: 20px;
-    font-family: "Judson", sans-serif;
+    padding: 0px 0px;
+    margin-bottom: 1.7rem;
 }
 
+.galeRia img{
+    top: 6rem;
+}
 
 }
 
@@ -1016,8 +1027,6 @@ footer{
 footer{
     font-size: 2.3rem;
 }
-
-
 
 .soMos h2{
     font-size: 10rem;
@@ -1169,11 +1178,11 @@ textarea{
 }
 
 .galeRia{
-    height: 90rem;
+    height: 110rem;
 }
 .galeRia img{
-    width: 100%;
-    height: 28rem;
+    height: 20rem;
+    object-fit: contain;
 }
 
 .galeRia p{
@@ -1183,7 +1192,7 @@ textarea{
 
 
 .navBoost{
-    height: 6rem
+    height: 5.7rem
 }
 
 .navBoost p{
@@ -1196,15 +1205,14 @@ textarea{
 }
 
 .navBoost h2{
-    font-size: 4rem;
-    margin-top: -20px;
-    font-family: "Italianno", sans-serif;
+    font-size: 3.7rem;
+    margin-top: 5px;
 }
 
 .navBoost ul li{
-    font-size: 1.5rem;
-    margin-top: 20px;
-    font-family: "Judson", sans-serif;
+    font-size: 1.4rem;
+    padding: 16px 0px;
+
 }
 
 
@@ -1519,13 +1527,17 @@ textarea{
 
 
 .galeRia{
-    height: 105rem;
+    height: 110rem;
 }
 
+.col-lg-4{
+    padding: 20px;
+}
 
 .galeRia img{
     width: 100%;
     height: 26rem;
+    object-fit: contain;
 }
 
 .galeRia p{
@@ -1539,14 +1551,14 @@ textarea{
 
 .navBoost h2{
     font-size: 2.5rem;
-        margin-top: -20px;
-    font-family: "Italianno", sans-serif;
+        margin-top: 10px;
 }
 
 .navBoost ul li{
-    font-size: 1.1rem;
-    margin-top: 10px;
-    font-family: "Judson", sans-serif;
+    font-size: 1rem;
+    padding: 0px 0px;
+    margin-top: 28px;
+
 }
 
 }
@@ -1560,14 +1572,13 @@ textarea{
     }
     .encabezado p{
         font-size: 2.2rem;
-        padding-top: 0.5rem;
+        margin-top: 0.5rem;
         margin-left: 8rem;
         }
     .naVbar{
-        width: 20rem;
         font-size: 10px;
         margin-left: 3.7rem;
-        margin-top: -0.1rem;
+        margin-top: -0.5rem;
     }
 
 
@@ -1653,9 +1664,15 @@ footer{
     font-size: 1.1rem;
     height: 37rem;
     gap: 0.7rem;
-    flex-direction: column;
 }
 
+.contActos div h3{
+    font-size: 2.5rem;
+}
+
+.reDes div h3{
+    font-size: 2.5rem;
+}
 
 .soMos{
     width: 100%;
@@ -1867,35 +1884,35 @@ textarea{
 }
 
 .galeRia{
-    height: 120rem;
+    height: 270rem;
 }
 
 .galeRia img{
-    height: 18rem;
-}
+    height: 25em;
+    object-fit: contain;
 
+}
 
 .galeRia p{
     font-size: 1.4rem;
     left: 3.2rem;
-    top: 7rem;
+    top: 4rem;
 }
 
 .navBoost{
-    height: 5.2rem
+    height: 5rem
 }
 
 .navBoost div h2{
-    font-family: "Italianno", sans-serif;
-    padding-top: 10px;
+    padding-top: 11px;
+    margin-top: -0.2rem;
     font-size: 2.2rem;
 }
 
 .navBoost ul li{
-    font-size: 0.68rem;
-    margin-top: -1px;
-    font-family: "Judson", sans-serif;
-
+    font-size: 0.63rem;
+    padding: 0px;
+    margin-top: -9px;
 }
 
 }
@@ -1905,18 +1922,16 @@ textarea{
     .encabezado{
         width: 100%;
         height: 4.9rem;
-
     }
 .encabezado p{
     font-size: 2.2rem;
-    padding-top: 0.5rem;
+    margin-top: 0.5rem;
     margin-left: 6.3rem;
     }
 .naVbar{
-    width: 20rem;
     font-size: 10px;
     margin-left: 2.2rem;
-    margin-top: 0.7rem;
+    margin-top: -0.5rem;
 }
 
 
@@ -2005,6 +2020,13 @@ footer{
     gap: 0.7rem;
 }
 
+.contActos div h3{
+    font-size: 2.5rem;
+}
+
+.reDes div h3{
+    font-size: 2.5rem;
+}
 .soMos{
     width: 100%;
     height: 75rem;
@@ -2214,7 +2236,7 @@ textarea{
     width: 70px ;
 }
 .galeRia{
-    height: 155rem;
+    height: 275rem;
 }
 
 .galeRia img{
@@ -2227,6 +2249,7 @@ textarea{
     font-size: 1.4rem;
     width: 18rem;
     height: 2.5rem;
+    top: 4rem;
     left: 2.2rem;;
 }
 
@@ -2235,22 +2258,17 @@ textarea{
 }
 
 .navBoost div h2{
-    padding-top: 10px;
     font-size: 2.2rem;
-    font-family: "Italianno", sans-serif;
+    margin-top: -0.2rem;
 
 }
 
 .navBoost ul li{
     font-size: 0.6rem;
-    margin-top: -0.2rem;
-    font-family: "Judson", sans-serif;
-    margin-left: 0.1rem;
+    padding: 1px 0px;
 }
 
 }
-
-
 
 
 
@@ -2265,14 +2283,30 @@ textarea{
     }
 .encabezado p{
     font-size: 2rem;
-    margin-bottom: -2.5rem;
+    margin-top: 0.5rem;
     margin-left: 5rem;
     }
 .naVbar{
-    margin-left: 1.1rem;
-    margin-top: 1.1rem;
+    font-size: 0.5rem;
+    margin-left: 1.8rem;
+    margin-top: -0.1rem;
+
     }
     
+    footer{
+        width: 100%;
+        font-size: 1.1rem;
+        height: 37rem;
+    padding:20px 0px 0px 20px;
+    }
+
+    .contActos div h3{
+        font-size: 3rem;
+    }
+
+    .reDes div h3{
+        font-size: 3rem;
+    }
 .tituloYSubtitulo img{
         width: 100%;
         height: 13rem;
@@ -2328,8 +2362,8 @@ textarea{
 }
 .conFiarr h2{
     width: 17.5rem;
-    height: 15rem;
-    font-size: 3rem;
+    height: 8rem;
+    font-size: 2rem;
     margin-top: 1rem;
 
 }
@@ -2348,18 +2382,19 @@ textarea{
     padding: 15px 20px;
 }
 
-.foOt{
-    padding: 20px 20px;
-    display: flex;
-    flex-direction: column;
-}
 
 .contActos p{
     font-size: 0.9rem;
 
 }
 
+.contActos div h3{
+    font-size: 2.5rem;
+}
 
+.reDes div h3{
+    font-size: 2.5rem;
+}
 
 .soMos{
     width: 100%;
@@ -2577,38 +2612,29 @@ textarea{
     top: 30rem;
     border-radius: 1.2rem;
 }
-
 .galeRia{
-    height: 115rem;
+    height: 210rem;
 }
-
 .galeRia img{
     height: 18rem;
 }
+.galeRia p{
+    top: 4rem;
+    left: 0.4rem;
+}
+.navBoost div h2{
+    font-size: 2rem;
+    margin-top: -0.2rem;
 
+}
+
+.navBoost ul li{
+    font-size: 0.5rem;
+    padding: 7px 0px;
 } 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
