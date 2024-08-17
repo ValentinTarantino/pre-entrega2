@@ -1,0 +1,29 @@
+/* sass --watch ./scss/style.scss ./css/style.css
+(COMANDO DE INICIO PARA SASS, 2DA OPCIÓN) */
+
+
+
+@import "./utilities/variables";
+@import "./utilities/mixin";
+
+
+@import "./base/reset";
+@import "./base/fuentes";
+
+@import "./layout/header";
+@import "./layout/index";
+@import "./layout/nosotros";
+@import "./layout/equipo";
+@import "./layout/donaciones";
+@import "./layout/sugerencias";
+@import "./layout/footer";
+
+
+@import "./components/boostrap";
+
+@import "./layout/media/media1440";
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media425";
+@import "./layout/media/media375";
+@import "./layout/media/media320";

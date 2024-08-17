@@ -1,0 +1,254 @@
+@media (max-width:1024px){
+    .encabezado{
+        height: 5.7rem;
+        p{
+            font-size: 3.8rem;
+            margin-top: -10px
+        }
+}
+
+
+.naVbar{
+    @include flex(none, none, none, none, 1rem);
+    font-size: 1.5rem;
+    margin-top: -20px;
+    margin-right: 1rem;
+}
+
+.tituloYSubtitulo img{
+    height: 40rem;
+}
+.tituloYSubtitulo h1{
+    font-size: 4.5rem;
+    margin-top: -25rem;
+    margin-left: 35rem;
+}
+
+.tituloYSubtitulo h2{
+    font-size: 2.2rem;
+    margin-top: -26rem;
+    margin-left: 35rem;
+}
+
+.sectionParrafoUno{
+    height: 55rem;
+    h2{
+        font-size: 3.5rem;
+        width: 40rem;
+    }
+}
+.parrAfouno{
+    width: 25rem;
+    height: 11rem;
+    font-size: 2rem;
+    margin-top: -47rem;
+    padding: 30px 30px;
+}
+.parrAfodos{
+    width: 25rem;
+    height: 9rem;
+    font-size: 2rem;
+    margin-top: -30rem;
+    margin-left: -25rem;
+    padding: 30px 30px;
+}
+
+
+.conFiarr{
+    height: 90rem;
+    h2{
+        font-size: 4rem;
+        height: 14rem;
+        width: 80rem;
+        margin-left: -0.1rem;
+    }
+}
+.conFiarr2 img{
+    margin-left: 2rem;
+    width: 18rem;
+    height: 23rem;
+}
+.conFiar p{
+    margin-left: 1.5rem;
+    font-size: 1.9rem;
+    width: 18.5rem;
+    height: 17rem;
+    padding: 20px 20px
+}
+
+
+footer{
+    font-size: 2rem;
+
+
+}
+.contActos div h3{
+    font-size: 3rem;
+    .contActos p{
+        padding-top: 3rem;
+    }
+}
+
+.reDes div h3{
+        font-size: 3rem;
+    p{
+        padding-top: 3rem;
+    }
+}
+
+.soMos {
+    height: 98rem;
+    h2{
+        font-size: 8rem;
+        margin-left: -7rem;
+    }
+    h3{
+        font-size: 3rem;
+        margin-top: 13rem;
+        margin-left: -1rem;
+    }
+}
+.parrAfos{
+    margin-top: -24rem;
+    margin-right: 11rem;
+    @include flex(none, none, none, none, 1.5rem);
+    p{
+        font-size: 1.3rem;
+        width: 30rem;
+        height: 7.7rem;
+    }
+}
+
+.imgsTexto{
+    height: 115rem;
+}
+
+.lucasImagen{ 
+    width: 25rem;
+    height: 18rem;
+    left: 6rem;
+    top: 15rem;
+}
+
+.texTolucas{
+    width: 25rem;
+    height: 17.5rem;
+    font-size: 2rem;
+    padding: 40px 40px;
+    top: 15rem;
+    left: 35rem;
+}
+
+.pepeImagen{
+    width: 25rem;
+    height: 18rem;
+    left: 34rem;
+    top: 40rem;
+}
+
+.pepeTexto{
+    width: 25rem;
+    height: 17.5rem;
+    font-size: 2rem;
+    padding: 40px 40px;
+    left: 5rem;
+    top: 40rem;
+}
+
+.joseImagen{
+    width: 25rem;
+    height: 18rem;
+    left: 6rem;
+    top: 65rem;
+}
+
+.joseTexto{
+    width: 25rem;
+    height: 17.5rem;
+    font-size: 2rem;
+    padding: 30px 40px;
+    left: 35rem;
+    top: 65rem;
+}
+
+.andreaImagen{
+    width: 25rem;
+    height: 18rem;
+    left: 34rem;
+    top: 90rem;
+}
+
+.andreTexto{
+    width: 25rem;
+    height: 17.5rem;
+    font-size: 2rem;
+    padding: 30px 40px;
+    left: 5rem;
+    top: 90rem;
+}
+
+.tituloDonar{
+    font-size: 4rem;
+    width: 45rem ;
+    height: 10rem;
+    left: 10rem;
+    padding: 20px 80px;
+
+}
+
+.textoDonar{
+    font-size: 3.3rem;
+    width: 53rem ;
+    left: 5.7rem;
+    margin-top: 30rem;
+
+}
+
+button{
+    bottom: -17.5rem;
+    margin-right: -26.5rem;
+
+}
+
+.paYpal{
+    top: -39.5rem;
+    left: 16rem;
+}
+
+.merCado{
+    top: -45.5rem;
+    left: 25.8rem;
+}
+
+.viSa{
+    top: -51.5rem;
+    left: 36.2rem;
+}
+
+.tituLosugerencia{
+    font-size: 5rem;
+    width: 45rem ;
+    height: 10rem;
+    left: 10rem;
+    padding: 33px 52.7px;
+}
+
+.tituLosugerencia2{
+    font-size: 3.3rem;
+    width: 53rem ;
+    margin-left: 5.5rem;
+}
+
+label{
+    margin-left: 4rem;
+}
+.texTarea{
+    margin-left: -25.5rem;
+    width: 60rem;
+    height: 30rem;
+}
+
+.botoNsugerencia{
+    left: 24.3rem;
+}
+}

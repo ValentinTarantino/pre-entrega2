@@ -1,0 +1,29 @@
+header{
+    background-image: url(../assets/img/Encabezado.png);
+    @include bground(no-repeat, cover, center, none, none);
+    height: 10rem;
+    li a{
+        color: $color-fuente;
+    }
+}
+    .encabezado{
+        color: $color-fuente;
+        font-size: 6rem;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        font-family: $font-titulo;
+        @include flex(none, wrap, space-between, none,  none);
+    }
+.naVbar{
+    font-family: $font-texto;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    @include flex(none, wrap, none ,none, 2.5rem);
+    li:hover{
+        transform: scale(1.2);
+        transition: transform 0.3s ease, font-size 0.3s ease; 
+    }
+}
+
+

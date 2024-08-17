@@ -1,0 +1,46 @@
+.soMos {
+    background-image: url("../assets/img/perroconchabon.JPG");
+    @include bground(no-repeat, cover, center, none, none);
+    @include flex(none, wrap, none, none, none);
+    width: 100%;
+    height: 120rem;
+    h2{
+        @include flex(none, wrap, none, none, none);
+        font-family: $font-texto;
+        color: $color-fuente;
+        font-size: 13rem;
+        position: relative;
+        text-align: center;
+        top: 10rem;
+        left: 11rem
+    }
+    h3{
+        @include flex(none, wrap, none, none, none);
+        font-family: $font-texto;
+        color: $color-fuente;
+        font-size: 6rem;
+        position: relative;
+        text-align: center;
+        bottom: 38rem;
+        left: 10rem
+    }
+    p{
+        @include flex(none, wrap, none, left, none);
+        @include bground(none, none, none, $color1, 2rem);
+        font-family: $font-texto;
+        color: $color-fuente;
+        font-size: 2.2rem;
+        width: 27rem;
+        height: 24.5rem;
+        padding: 20px 38px;
+    }
+}
+
+
+.parrAfos{
+    @include flex(row, wrap, center, center, 7rem);
+    position:absolute;
+    top: 95rem;
+    left: 11rem;
+}
+

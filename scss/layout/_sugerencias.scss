@@ -1,0 +1,80 @@
+.sugeRencias{
+    background-image: url("../assets/img/perronaranja.jpg");
+    @include bground(no-repeat, cover, center, none, none);
+    @include flex(none, wrap, none, none, none);
+    width: 100%;
+    height: 140rem;
+}
+    .tituLosugerencia{
+        @include flex(none, wrap, none, center, none);
+        @include bground(none, none, none, $color2, 4rem);
+        position: relative;
+        font-size: 7rem;
+        width: 62rem;
+        height: 12.5rem;
+        padding: 30px 60px;
+        left: 28.5rem;
+        top: 8rem;
+        font-family: $font-texto;
+        color: $color-fuente;
+        text-align: center;
+    }
+    .tituLosugerencia2{
+        @include flex(none, wrap, center, center, none);
+        @include bground(none, none, none, $color1, 5rem);
+        padding: 5px 15px;
+        font-family: $font-texto;
+        color: $color-fuente;
+        font-size: 4.5rem;
+        padding: 40px 110px;
+        width: 75rem;
+        height: 31rem;
+        margin-top: -20rem;
+        margin-left: 22rem;
+        text-align: center;
+    }
+
+
+label{
+    @include bground(none, none, none, $color1, 2rem);
+    @include flex(none, wrap, none, none, none);
+    font-family: $font-texto;
+    color: $color-fuente;
+    margin-top: -27rem;
+    margin-left: 30rem;
+    font-size: 2.5rem;
+    width: 28rem;
+    height: 3.75rem;
+    padding: 5px 15px;
+    
+    
+}
+.texTarea{
+    @include bground(none, none, none, none, 5rem);
+    @include flex(none, wrap, none, none, none);
+    position: absolute;
+    width: 62.5rem;
+    height: 31.25rem;
+    left: 27.5rem;
+    bottom: -65rem;
+    
+}
+
+
+.botoNsugerencia{
+    @include flex(none, wrap, none, none, none);
+    @include bground(none, none, none, none, 10rem 10rem);
+    box-shadow: 0.3125rem 0.3125rem 0.625rem black;
+    padding: 50px 120.5px;
+    width: 5rem;
+    height: 1rem;
+    bottom: -78rem;
+    left:50rem;
+    
+}
+.botoNsugerencia img{
+    @include flex(none, wrap, none, none, none);
+    position: absolute;
+    top: -0.2rem;
+    left: 3.7rem;
+}

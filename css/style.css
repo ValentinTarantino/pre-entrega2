@@ -1,0 +1,2219 @@
+@charset "UTF-8";
+/* sass --watch ./scss/style.scss ./css/style.css
+(COMANDO DE INICIO PARA SASS, 2DA OPCIÓN) */
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url(../assets/img/Encabezado.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  height: 10rem;
+}
+header li a {
+  color: white;
+}
+
+.encabezado {
+  color: white;
+  font-size: 6rem;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+  font-family: "Italianno", sans-serif;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: none;
+  gap: none;
+}
+
+.naVbar {
+  font-family: "Judson", sans-serif;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 2.5rem;
+}
+.naVbar li:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.tituloYSubtitulo {
+  font-family: "Judson", sans-serif;
+  font-size: 2.8rem;
+  color: white;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: right;
+  gap: none;
+}
+.tituloYSubtitulo img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  width: 100%;
+  height: 78rem;
+}
+.tituloYSubtitulo h1 {
+  font-family: "Judson", sans-serif;
+  font-size: 9rem;
+  margin-top: -45rem;
+  margin-left: 76rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+}
+.tituloYSubtitulo h2 {
+  font-family: "Judson", sans-serif;
+  font-size: 4.2rem;
+  margin-top: -35rem;
+  margin-left: 77.5rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+}
+
+.sectionParrafoUno {
+  background-image: url("../assets/img/Group 7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  width: 100%;
+  height: 100rem;
+}
+.sectionParrafoUno h2 {
+  font-family: "Judson", sans-serif;
+  font-size: 6.5rem;
+  color: white;
+  width: 80.5rem;
+  height: 60rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+.parrAfouno, .parrAfodos {
+  font-family: "Judson", sans-serif;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: none;
+  gap: none;
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 2rem;
+  font-size: 5rem;
+  width: 38%;
+  height: 28rem;
+  padding: 30px 40px;
+  margin-top: -52rem;
+  margin-left: 3rem;
+}
+
+.parrAfodos {
+  padding: 20px 40px;
+  margin-top: -12rem;
+  margin-left: -50rem;
+  height: 20rem;
+}
+
+.conFiarr {
+  background-image: url("../assets/img/Rectangle 33.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  width: 100%;
+  height: 98rem;
+  padding: 20px;
+}
+.conFiarr h2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 2.5rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  font-family: "Judson", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 6.5rem;
+  width: 100%;
+  height: 17rem;
+  margin-top: 6rem;
+}
+
+.conFiarr2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  padding: 30px 0px;
+}
+.conFiarr2 img {
+  margin-left: 12rem;
+}
+.conFiarr2 p {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  font-family: "Judson", sans-serif;
+  font-weight: bolder;
+  font-size: 2.4rem;
+  color: white;
+  text-align: left;
+  width: 27rem;
+  height: 17rem;
+  margin-top: 5rem;
+  margin-left: 12rem;
+  padding: 20px 40px;
+}
+
+.soMos {
+  background-image: url("../assets/img/perroconchabon.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  width: 100%;
+  height: 120rem;
+}
+.soMos h2 {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  font-family: "Judson", sans-serif;
+  color: white;
+  font-size: 13rem;
+  position: relative;
+  text-align: center;
+  top: 10rem;
+  left: 11rem;
+}
+.soMos h3 {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  font-family: "Judson", sans-serif;
+  color: white;
+  font-size: 6rem;
+  position: relative;
+  text-align: center;
+  bottom: 38rem;
+  left: 10rem;
+}
+.soMos p {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: left;
+  gap: none;
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 2rem;
+  font-family: "Judson", sans-serif;
+  color: white;
+  font-size: 2.2rem;
+  width: 27rem;
+  height: 24.5rem;
+  padding: 20px 38px;
+}
+
+.parrAfos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  position: absolute;
+  top: 95rem;
+  left: 11rem;
+}
+
+.imgsTexto {
+  background-image: url("../assets/img/Rectangle 44.png");
+  width: 100%;
+  height: 160rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+}
+
+.lucasImagen, .joseImagen, .pepeImagen, .andreaImagen {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  position: absolute;
+  width: 40rem;
+  height: 30rem;
+  left: 11rem;
+  top: 20rem;
+}
+
+.texTolucas, .joseTexto, .pepeTexto, .andreTexto {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 2rem;
+  font-family: "Judson", sans-serif;
+  color: white;
+  font-size: 3.6rem;
+  position: absolute;
+  left: 58rem;
+  top: 21rem;
+  width: 50rem;
+  height: 28rem;
+  padding: 70px 70px;
+}
+
+.pepeImagen, .andreaImagen {
+  width: 40rem;
+  height: 30rem;
+  left: 68rem;
+  top: 55rem;
+}
+
+.pepeTexto, .andreTexto {
+  padding: 100px 70px;
+  left: 10rem;
+  top: 56rem;
+}
+
+.joseImagen {
+  top: 90rem;
+  left: 11rem;
+}
+
+.joseTexto {
+  top: 91rem;
+  padding: 40px 65px;
+}
+
+.andreaImagen {
+  top: 128rem;
+}
+
+.andreTexto {
+  top: 129.5rem;
+  padding: 85px 65px;
+}
+
+.doNaciones {
+  background-image: url("../assets/img/Rectangle 34 (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  width: 100%;
+  height: 150rem;
+}
+
+.tituloDonar {
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 2.5rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: center;
+  gap: none;
+  font-family: "Judson", sans-serif;
+  color: white;
+  position: relative;
+  top: 7rem;
+  left: 16rem;
+  font-size: 6rem;
+  width: 90rem;
+  height: 10rem;
+  padding: 20px 308px;
+  text-align: center;
+}
+
+.textoDonar {
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: center;
+  gap: none;
+  font-family: "Judson", sans-serif;
+  color: white;
+  position: relative;
+  bottom: 38rem;
+  left: 15rem;
+  width: 90.5rem;
+  height: 30rem;
+  font-size: 5rem;
+  padding: 10px 100px;
+  text-align: center;
+}
+
+button {
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgb(255, 129, 46);
+  border-radius: 10rem 10rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: center;
+  gap: none;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem black;
+  position: absolute;
+  padding: 1.5rem 7rem;
+  font-family: "Judson", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  bottom: -22rem;
+  right: 50.3rem;
+}
+
+button:active {
+  transform: translateX(0.1em) translateY(0.1em);
+  box-shadow: 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+.paYpal, .merCado, .viSa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  position: relative;
+  width: 11.6rem;
+  height: 6rem;
+  top: 6rem;
+  left: -50rem;
+  padding: 20px 40px;
+}
+
+.merCado, .viSa {
+  width: 12rem;
+  height: 6rem;
+  top: 0rem;
+  left: -38.3rem;
+}
+
+.viSa {
+  left: -26rem;
+  top: -6rem;
+}
+
+.sugeRencias {
+  background-image: url("../assets/img/perronaranja.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  width: 100%;
+  height: 140rem;
+}
+
+.tituLosugerencia {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: center;
+  gap: none;
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgb(255, 129, 46);
+  border-radius: 4rem;
+  position: relative;
+  font-size: 7rem;
+  width: 62rem;
+  height: 12.5rem;
+  padding: 30px 60px;
+  left: 28.5rem;
+  top: 8rem;
+  font-family: "Judson", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.tituLosugerencia2 {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 5rem;
+  padding: 5px 15px;
+  font-family: "Judson", sans-serif;
+  color: white;
+  font-size: 4.5rem;
+  padding: 40px 110px;
+  width: 75rem;
+  height: 31rem;
+  margin-top: -20rem;
+  margin-left: 22rem;
+  text-align: center;
+}
+
+label {
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  font-family: "Judson", sans-serif;
+  color: white;
+  margin-top: -27rem;
+  margin-left: 30rem;
+  font-size: 2.5rem;
+  width: 28rem;
+  height: 3.75rem;
+  padding: 5px 15px;
+}
+
+.texTarea {
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: none;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  position: absolute;
+  width: 62.5rem;
+  height: 31.25rem;
+  left: 27.5rem;
+  bottom: -65rem;
+}
+
+.botoNsugerencia {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: none;
+  border-radius: 10rem 10rem;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem black;
+  padding: 50px 120.5px;
+  width: 5rem;
+  height: 1rem;
+  bottom: -78rem;
+  left: 50rem;
+}
+
+.botoNsugerencia img {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  position: absolute;
+  top: -0.2rem;
+  left: 3.7rem;
+}
+
+footer {
+  background-image: url("../assets/img/pie-de-página.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 10rem;
+  padding: 40px 0px 0px 50px;
+  height: 30rem;
+  font-size: 2.8rem;
+  font-family: "Judson", sans-serif;
+  color: white;
+}
+
+.contActos div h3 {
+  font-size: 4rem;
+}
+
+.contActos p {
+  display: inline-flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  padding-left: 25px;
+  padding-top: 1.5rem;
+}
+
+.reDes div h3 {
+  font-size: 4rem;
+}
+
+.reDes p {
+  display: inline-flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  padding-left: 25px;
+  padding-top: 1.5rem;
+}
+
+.navBoost h2 {
+  font-family: "Italianno", sans-serif;
+  color: white;
+  font-size: 6rem;
+}
+
+.navBoost ul li {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  font-family: "Judson", sans-serif;
+  color: white;
+  font-size: 3rem;
+  margin-top: 1rem;
+  padding: 1px 10px;
+}
+
+.navBoost ul li:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.galeRia {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  border-radius: none;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  background-image: url("../assets/img/fotogaleria3.png");
+  font-family: "Judson", sans-serif;
+  width: 100%;
+  height: 215rem;
+}
+.galeRia img {
+  position: relative;
+  top: 15rem;
+  width: 100%;
+  height: 53rem;
+  object-fit: contain;
+}
+.galeRia p {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: none;
+  background-repeat: none;
+  background-size: none;
+  background-position: none;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 1rem;
+  font-size: 6.25rem;
+  color: white;
+  position: relative;
+  width: 75%;
+  top: 10rem;
+  left: 15rem;
+  padding: 20px 20px;
+}
+
+.col-lg-4 {
+  padding: 60px;
+  padding-top: -100px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1440px) {
+  .galeRia {
+    height: 220.5rem;
+  }
+  .galeRia p {
+    font-size: 4.5rem;
+    height: 10rem;
+    top: 9rem;
+    left: 12rem;
+  }
+  .galeRia img {
+    top: 6rem;
+  }
+  .galeRia .col-lg-4 {
+    padding: 30px;
+    padding-top: -100px;
+  }
+  .navBoost {
+    height: 7rem;
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 3rem;
+  }
+  .navBoost h2 {
+    font-size: 5rem;
+    margin-top: -1px;
+  }
+  .navBoost p {
+    font-size: 5rem;
+    margin-bottom: -2rem;
+  }
+  .navBoost ul li {
+    font-size: 2rem;
+    padding: 0px 0px;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .galeRia {
+    height: 110rem;
+  }
+  .galeRia p {
+    top: 5rem;
+    font-size: 3.3rem;
+    height: 8rem;
+    left: 9rem;
+  }
+  .galeRia img {
+    top: 6rem;
+    height: 20rem;
+    object-fit: contain;
+  }
+  .navBoost {
+    height: 5.7rem;
+  }
+  .navBoost h2 {
+    font-family: "Italianno", sans-serif;
+    margin-top: 1rem;
+    font-size: 4rem;
+  }
+  .navBoost ul li {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .galeRia {
+    height: 110rem;
+  }
+  .galeRia img {
+    top: 5rem;
+    width: 100%;
+    height: 26rem;
+    object-fit: contain;
+  }
+  .galeRia p {
+    top: 4rem;
+    font-size: 2.3rem;
+    height: 6rem;
+    left: 6rem;
+  }
+  .col-lg-4 {
+    padding: 20px;
+  }
+  .navBoost {
+    height: 4rem;
+  }
+  .navBoost h2 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+  .navBoost ul li {
+    font-size: 1rem;
+    margin-top: 1.7rem;
+  }
+}
+@media (max-width: 425px) {
+  .galeRia {
+    height: 270rem;
+  }
+  .galeRia img {
+    top: 5rem;
+    height: 25em;
+    object-fit: contain;
+  }
+  .galeRia p {
+    font-size: 1.2rem;
+    width: 19rem;
+    height: 3rem;
+    left: 3.5rem;
+    top: 4rem;
+    padding: 7px 20px;
+  }
+  .navBoost {
+    height: 5rem;
+  }
+  .navBoost div h2 {
+    padding-top: 11px;
+    margin-top: -0.2rem;
+    font-size: 2.2rem;
+  }
+  .navBoost ul li {
+    font-size: 0.63rem;
+    padding: 0px;
+    margin-top: -9px;
+  }
+}
+@media (max-width: 375px) {
+  .galeRia p {
+    font-size: 1.17rem;
+    width: 18rem;
+    height: 2.8rem;
+    top: 4rem;
+    left: 2.2rem;
+  }
+  .navBoost ul li {
+    font-size: 9px;
+  }
+}
+@media (max-width: 320px) {
+  .galeRia p {
+    top: 4rem;
+    left: 0.4rem;
+  }
+  .navBoost h2 {
+    font-size: 0.2rem;
+  }
+  .navBoost ul li {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 1440px) {
+  .encabezado {
+    height: 7rem;
+  }
+  .encabezado p {
+    font-size: 5rem;
+    margin-top: -20px;
+  }
+  .naVbar {
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 1.3rem;
+    font-size: 2rem;
+    margin-top: -18px;
+    margin-left: 1rem;
+  }
+  .tituloYSubtitulo img {
+    height: 60rem;
+  }
+  .tituloYSubtitulo h1 {
+    font-size: 6.5rem;
+    margin-top: -36rem;
+    margin-left: 48rem;
+  }
+  .tituloYSubtitulo h2 {
+    font-size: 3rem;
+    padding-top: 6rem;
+    margin-left: 49.1rem;
+  }
+  .sectionParrafoUno {
+    height: 80rem;
+    margin-top: -10rem;
+  }
+  .sectionParrafoUno h2 {
+    font-size: 5rem;
+    margin-top: 11rem;
+  }
+  .parrAfouno, .parrAfodos {
+    width: 35rem;
+    height: 17rem;
+    font-size: 3rem;
+    margin-top: -47rem;
+    padding: 40px 30px;
+  }
+  .parrAfodos {
+    width: 35rem;
+    height: 13rem;
+    font-size: 3rem;
+    margin-top: -20rem;
+    margin-left: -35rem;
+  }
+  .conFiarr {
+    height: 98rem;
+  }
+  .conFiarr h2 {
+    font-size: 5.5rem;
+    height: 14rem;
+    width: 80rem;
+    margin-left: 4rem;
+  }
+  .conFiarr2 img {
+    margin-bottom: 10rem;
+    margin-left: 7.5rem;
+    width: 19rem;
+    height: 25rem;
+    margin-top: 4rem;
+  }
+  .conFiar p {
+    margin-top: 0.2rem;
+    margin-left: 7.5rem;
+    font-size: 1.87rem;
+    width: 19rem;
+    height: 17rem;
+  }
+  .soMos {
+    height: 98rem;
+  }
+  .soMos h2 {
+    font-size: 10rem;
+  }
+  .soMos h3 {
+    font-size: 4rem;
+    margin-top: 14rem;
+    margin-left: 4rem;
+  }
+  .parrAfos {
+    margin-top: -18rem;
+    margin-right: 11rem;
+  }
+  .parrAfos p {
+    font-size: 1.6rem;
+    width: 18rem;
+    height: 20rem;
+  }
+  .imgsTexto {
+    height: 98rem;
+  }
+  .lucasImagen, .pepeImagen, .joseImagen, .andreaImagen {
+    width: 27rem;
+    height: 20rem;
+    left: 13rem;
+    top: 9rem;
+  }
+  .texTolucas, .pepeTexto, .joseTexto, .andreTexto {
+    width: 30rem;
+    height: 20rem;
+    font-size: 2.5rem;
+    padding: 40px 40px;
+    top: 9rem;
+    left: 47rem;
+  }
+  .pepeImagen, .andreaImagen {
+    left: 49rem;
+    top: 34rem;
+  }
+  .pepeTexto, .andreTexto {
+    padding: 30px 40px;
+    top: 34rem;
+    left: 11.5rem;
+  }
+  .joseImagen {
+    left: 13rem;
+    top: 58rem;
+  }
+  .joseTexto {
+    font-size: 2.5rem;
+    padding: 20px 45px;
+    left: 46rem;
+    top: 58rem;
+  }
+  .andreaImagen {
+    left: 49rem;
+    top: 83rem;
+  }
+  .andreTexto {
+    font-size: 2.5rem;
+    padding: 30px 40px;
+    top: 83rem;
+    left: 11.5rem;
+  }
+  .doNaciones {
+    height: 143rem;
+  }
+  .tituloDonar {
+    font-size: 5rem;
+    width: 65rem;
+    left: 13.5rem;
+    padding: 33px 175px;
+  }
+  .textoDonar {
+    font-size: 4.1rem;
+    width: 75rem;
+    left: 8rem;
+    padding: 20px 100px;
+  }
+  button {
+    bottom: -18rem;
+    margin-right: -14rem;
+    padding: 20px 80px;
+  }
+  .paYpal, .merCado, .viSa {
+    left: -47rem;
+  }
+  .merCado, .viSa {
+    left: -35.7rem;
+  }
+  .viSa {
+    left: -24rem;
+  }
+  .sugeRencias {
+    height: 140.5rem;
+  }
+  .tituLosugerencia {
+    font-size: 7.9rem;
+    width: 68.5rem;
+    left: 13rem;
+  }
+  .tituLosugerencia2 {
+    font-size: 4rem;
+    width: 75rem;
+    margin-left: 10rem;
+  }
+  label {
+    margin-left: 16.5rem;
+    margin-top: -30rem;
+  }
+  textarea {
+    margin-left: -13rem;
+  }
+  .botoNsugerencia {
+    left: 36.5rem;
+    top: 120rem;
+  }
+}
+@media (max-width: 1024px) {
+  .encabezado {
+    height: 5.7rem;
+  }
+  .encabezado p {
+    font-size: 3.8rem;
+    margin-top: -10px;
+  }
+  .naVbar {
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-top: -20px;
+    margin-right: 1rem;
+  }
+  .tituloYSubtitulo img {
+    height: 40rem;
+  }
+  .tituloYSubtitulo h1 {
+    font-size: 4.5rem;
+    margin-top: -25rem;
+    margin-left: 35rem;
+  }
+  .tituloYSubtitulo h2 {
+    font-size: 2.2rem;
+    margin-top: -26rem;
+    margin-left: 35rem;
+  }
+  .sectionParrafoUno {
+    height: 55rem;
+  }
+  .sectionParrafoUno h2 {
+    font-size: 3.5rem;
+    width: 40rem;
+  }
+  .parrAfouno, .parrAfodos {
+    width: 25rem;
+    height: 11rem;
+    font-size: 2rem;
+    margin-top: -47rem;
+    padding: 30px 30px;
+  }
+  .parrAfodos {
+    width: 25rem;
+    height: 9rem;
+    font-size: 2rem;
+    margin-top: -30rem;
+    margin-left: -25rem;
+    padding: 30px 30px;
+  }
+  .conFiarr {
+    height: 90rem;
+  }
+  .conFiarr h2 {
+    font-size: 4rem;
+    height: 14rem;
+    width: 80rem;
+    margin-left: -0.1rem;
+  }
+  .conFiarr2 img {
+    margin-left: 2rem;
+    width: 18rem;
+    height: 23rem;
+  }
+  .conFiar p {
+    margin-left: 1.5rem;
+    font-size: 1.9rem;
+    width: 18.5rem;
+    height: 17rem;
+    padding: 20px 20px;
+  }
+  footer {
+    font-size: 2rem;
+  }
+  .contActos div h3 {
+    font-size: 3rem;
+  }
+  .contActos div h3 .contActos p {
+    padding-top: 3rem;
+  }
+  .reDes div h3 {
+    font-size: 3rem;
+  }
+  .reDes div h3 p {
+    padding-top: 3rem;
+  }
+  .soMos {
+    height: 98rem;
+  }
+  .soMos h2 {
+    font-size: 8rem;
+    margin-left: -7rem;
+  }
+  .soMos h3 {
+    font-size: 3rem;
+    margin-top: 13rem;
+    margin-left: -1rem;
+  }
+  .parrAfos {
+    margin-top: -24rem;
+    margin-right: 11rem;
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 1.5rem;
+  }
+  .parrAfos p {
+    font-size: 1.3rem;
+    width: 30rem;
+    height: 7.7rem;
+  }
+  .imgsTexto {
+    height: 115rem;
+  }
+  .lucasImagen, .pepeImagen, .joseImagen, .andreaImagen {
+    width: 25rem;
+    height: 18rem;
+    left: 6rem;
+    top: 15rem;
+  }
+  .texTolucas, .pepeTexto, .joseTexto, .andreTexto {
+    width: 25rem;
+    height: 17.5rem;
+    font-size: 2rem;
+    padding: 40px 40px;
+    top: 15rem;
+    left: 35rem;
+  }
+  .pepeImagen, .andreaImagen {
+    width: 25rem;
+    height: 18rem;
+    left: 34rem;
+    top: 40rem;
+  }
+  .pepeTexto, .andreTexto {
+    width: 25rem;
+    height: 17.5rem;
+    font-size: 2rem;
+    padding: 40px 40px;
+    left: 5rem;
+    top: 40rem;
+  }
+  .joseImagen {
+    width: 25rem;
+    height: 18rem;
+    left: 6rem;
+    top: 65rem;
+  }
+  .joseTexto {
+    width: 25rem;
+    height: 17.5rem;
+    font-size: 2rem;
+    padding: 30px 40px;
+    left: 35rem;
+    top: 65rem;
+  }
+  .andreaImagen {
+    width: 25rem;
+    height: 18rem;
+    left: 34rem;
+    top: 90rem;
+  }
+  .andreTexto {
+    width: 25rem;
+    height: 17.5rem;
+    font-size: 2rem;
+    padding: 30px 40px;
+    left: 5rem;
+    top: 90rem;
+  }
+  .tituloDonar {
+    font-size: 4rem;
+    width: 45rem;
+    height: 10rem;
+    left: 10rem;
+    padding: 20px 80px;
+  }
+  .textoDonar {
+    font-size: 3.3rem;
+    width: 53rem;
+    left: 5.7rem;
+    margin-top: 30rem;
+  }
+  button {
+    bottom: -17.5rem;
+    margin-right: -26.5rem;
+  }
+  .paYpal, .merCado, .viSa {
+    top: -39.5rem;
+    left: 16rem;
+  }
+  .merCado, .viSa {
+    top: -45.5rem;
+    left: 25.8rem;
+  }
+  .viSa {
+    top: -51.5rem;
+    left: 36.2rem;
+  }
+  .tituLosugerencia {
+    font-size: 5rem;
+    width: 45rem;
+    height: 10rem;
+    left: 10rem;
+    padding: 33px 52.7px;
+  }
+  .tituLosugerencia2 {
+    font-size: 3.3rem;
+    width: 53rem;
+    margin-left: 5.5rem;
+  }
+  label {
+    margin-left: 4rem;
+  }
+  .texTarea {
+    margin-left: -25.5rem;
+    width: 60rem;
+    height: 30rem;
+  }
+  .botoNsugerencia {
+    left: 24.3rem;
+  }
+}
+@media (max-width: 768px) {
+  .encabezado {
+    height: 4rem;
+  }
+  .encabezado p {
+    font-size: 2.5rem;
+    margin-top: -15px;
+  }
+  .naVbar {
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 1rem;
+    font-size: 1rem;
+    margin-top: -27px;
+    margin-right: 0rem;
+  }
+  .tituloYSubtitulo img {
+    height: 30rem;
+  }
+  .tituloYSubtitulo h1 {
+    font-size: 3.5rem;
+    margin-top: -18rem;
+    margin-left: 25.5rem;
+  }
+  .tituloYSubtitulo h2 {
+    font-size: 1.7rem;
+    margin-top: -20.5rem;
+    margin-left: 25.5rem;
+  }
+  .sectionParrafoUno {
+    height: 35rem;
+    margin-top: -3rem;
+  }
+  .sectionParrafoUno h2 {
+    font-size: 2.5rem;
+    width: 40rem;
+    margin-top: 4rem;
+  }
+  .parrAfouno, .parrAfodos {
+    width: 19.5rem;
+    height: 8.5rem;
+    font-size: 1.6rem;
+    margin-top: -52rem;
+    padding: 20px 20px;
+  }
+  .parrAfodos {
+    width: 19.5rem;
+    height: 7rem;
+    font-size: 1.6rem;
+    margin-top: -40rem;
+    margin-left: -19.5rem;
+    padding: 20px 20px;
+  }
+  .conFiarr {
+    height: 75rem;
+  }
+  .conFiarr h2 {
+    font-size: 3.5rem;
+    height: 14rem;
+    width: 78rem;
+    margin-left: 0.5rem;
+  }
+  .conFiarr2 img {
+    width: 13rem;
+    height: 18rem;
+    margin-left: 1.7rem;
+    margin-top: -5rem;
+  }
+  .conFiar p {
+    font-size: 1.4rem;
+    width: 13.4rem;
+    height: 12rem;
+    margin-top: -5rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 8rem;
+    font-size: 1rem;
+    height: 21rem;
+  }
+  .contActos p {
+    margin-top: 1rem;
+  }
+  .reDes p {
+    margin-top: 1rem;
+  }
+  .soMos {
+    height: 120rem;
+  }
+  .soMos h2 {
+    font-size: 8rem;
+    width: 30rem;
+    margin-left: -2rem;
+  }
+  .soMos h3 {
+    width: 38rem;
+    font-size: 2.3rem;
+    margin-top: 2rem;
+    margin-left: -4.5rem;
+  }
+  .parrAfos {
+    margin-top: -8rem;
+    margin-left: -1.8rem;
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 1.5rem;
+  }
+  .parrAfos p {
+    font-size: 1.3rem;
+    width: 30rem;
+    height: 8rem;
+  }
+  .imgsTexto {
+    width: 100%;
+    height: 130rem;
+  }
+  .lucasImagen, .pepeImagen, .joseImagen, .andreaImagen {
+    width: 20rem;
+    height: 15rem;
+    left: 29%;
+    top: 100px;
+  }
+  .texTolucas, .pepeTexto, .joseTexto, .andreTexto {
+    width: 20.5rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 30px 34px;
+    left: 29%;
+    top: 400px;
+  }
+  .pepeImagen, .andreaImagen {
+    width: 20rem;
+    height: 15rem;
+    left: 29%;
+    top: 600px;
+  }
+  .pepeTexto, .andreTexto {
+    left: 29%;
+    top: 900px;
+    width: 20.5rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 40px 34px;
+  }
+  .joseImagen {
+    width: 20rem;
+    height: 15rem;
+    left: 29%;
+    top: 1120px;
+  }
+  .joseTexto {
+    left: 29%;
+    top: 1400px;
+    width: 20.5rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 30px 35px;
+  }
+  .andreaImagen {
+    width: 20.5rem;
+    height: 15rem;
+    left: 29%;
+    top: 1600px;
+  }
+  .andreTexto {
+    left: 29%;
+    top: 1900px;
+    width: 20.5rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 30px 34px;
+  }
+  .tituloDonar {
+    font-size: 3rem;
+    width: 35rem;
+    height: 8rem;
+    left: 7rem;
+    padding: 20px 70px;
+  }
+  .textoDonar {
+    font-size: 2.3rem;
+    width: 40rem;
+    height: 20rem;
+    left: 4.3rem;
+    margin-top: 30rem;
+  }
+  button {
+    bottom: -8rem;
+    margin-right: -34.7rem;
+  }
+  .paYpal, .merCado, .viSa {
+    top: -45rem;
+    left: 7rem;
+  }
+  .merCado, .viSa {
+    top: -51rem;
+    left: 18.3rem;
+  }
+  .viSa {
+    top: -56.8rem;
+    left: 30rem;
+  }
+  .sugeRencias {
+    height: 90rem;
+  }
+  .tituLosugerencia {
+    width: 35rem;
+    height: 6rem;
+    font-size: 3rem;
+    left: 7.3rem;
+    top: 6.25rem;
+    padding: 22px 93px;
+  }
+  .tituLosugerencia2 {
+    margin-left: 6.8rem;
+    margin-top: -16rem;
+    font-size: 2rem;
+    width: 35rem;
+    height: 15rem;
+    padding: 25px 38px;
+  }
+  label {
+    width: 15.6rem;
+    height: 3.1rem;
+    font-size: 1.3rem;
+    margin-top: -18rem;
+    margin-left: 6.5rem;
+    padding: 10px 15px;
+  }
+  .texTarea {
+    width: 600px;
+    height: 300px;
+    margin-left: -22rem;
+    margin-bottom: 45rem;
+  }
+  .botoNsugerencia {
+    margin-top: -45rem;
+    margin-left: -8rem;
+  }
+}
+@media (max-width: 425px) {
+  .encabezado {
+    height: 4.9rem;
+  }
+  .encabezado p {
+    font-size: 2.2rem;
+    margin-top: -1.2rem;
+    margin-left: 8rem;
+  }
+  .naVbar {
+    font-size: 10px;
+    margin-left: 3rem;
+    margin-top: -2.8rem;
+  }
+  .tituloYSubtitulo img {
+    height: 18rem;
+  }
+  .tituloYSubtitulo h1 {
+    font-size: 1.9rem;
+    margin-top: -10.5rem;
+    margin-left: 14rem;
+  }
+  .tituloYSubtitulo h2 {
+    font-size: 0.9rem;
+    margin-top: -14rem;
+    margin-left: 14.3rem;
+  }
+  .sectionParrafoUno {
+    height: 21rem;
+  }
+  .sectionParrafoUno h2 {
+    font-size: 1.3rem;
+    width: 15rem;
+    padding-top: 7.8rem;
+    margin-left: 1.3rem;
+    margin-top: -4rem;
+  }
+  .parrAfouno, .parrAfodos {
+    background-repeat: none;
+    background-size: none;
+    background-position: none;
+    background-color: none;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    width: 9rem;
+    height: 4.2rem;
+    padding: 9px 20px;
+    margin-top: -47rem;
+    margin-left: 2rem;
+  }
+  .parrAfodos {
+    background-repeat: none;
+    background-size: none;
+    background-position: none;
+    background-color: none;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    width: 9rem;
+    height: 4.2rem;
+    margin-top: -41rem;
+    margin-left: -9rem;
+    padding: 15px 20px;
+  }
+  .conFiarr {
+    height: 120rem;
+  }
+  .conFiarr h2 {
+    width: 24.5rem;
+    height: 9rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: -0.2rem;
+  }
+  .conFiarr p {
+    font-size: 1.2rem;
+    width: 13rem;
+    height: 10.5rem;
+    margin-top: -8rem;
+    margin-left: 5.5rem;
+    padding: 20px 20px;
+  }
+  .conFiarr2 img {
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+  }
+  footer {
+    width: 100%;
+    font-size: 1.1rem;
+    height: 37rem;
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 1rem;
+  }
+  .contActos p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .reDes p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .soMos {
+    height: 75rem;
+  }
+  .soMos h2 {
+    width: 20rem;
+    font-size: 5.5rem;
+    margin-left: -8.5rem;
+    margin-top: -2rem;
+  }
+  .soMos h3 {
+    width: 25rem;
+    font-size: 1.5rem;
+    margin-top: 40rem;
+    margin-left: -8.5rem;
+  }
+  .parrAfos {
+    left: 5.5rem;
+    top: 60rem;
+  }
+  .parrAfos p {
+    font-size: 0.9rem;
+    width: 19rem;
+    height: 6rem;
+    padding: 15px 18px;
+  }
+  .lucasImagen, .pepeImagen, .joseImagen, .andreaImagen {
+    width: 14rem;
+    height: 11rem;
+    left: 24%;
+    top: 100px;
+  }
+  .texTolucas, .pepeTexto, .joseTexto, .andreTexto {
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 16px 20px;
+    left: 24%;
+    top: 350px;
+  }
+  .pepeImagen, .andreaImagen {
+    width: 14rem;
+    height: 11rem;
+    left: 24%;
+    top: 600px;
+  }
+  .pepeTexto, .andreTexto {
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 24%;
+    top: 850px;
+    padding: 25px 20px;
+  }
+  .joseImagen {
+    width: 14rem;
+    height: 11rem;
+    left: 24%;
+    top: 1120px;
+  }
+  .joseTexto {
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 24%;
+    top: 1350px;
+    font-size: 1.3rem;
+    padding: 15px 20px;
+  }
+  .andreaImagen {
+    width: 14rem;
+    height: 11rem;
+    left: 24%;
+    top: 1600px;
+  }
+  .andreTexto {
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 24%;
+    top: 1850px;
+    padding: 18px 20px;
+  }
+  .doNaciones {
+    height: 77rem;
+  }
+  .tituloDonar {
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 1rem;
+    font-size: 1.5rem;
+    width: 18rem;
+    height: 4rem;
+    top: 5rem;
+    padding: 5px 40px;
+    left: 4.6rem;
+  }
+  .textoDonar {
+    left: 3.6rem;
+    font-size: 1.2rem;
+    width: 20rem;
+    height: 10rem;
+    padding: 15px 38px;
+    top: -27rem;
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: 1rem;
+  }
+  button {
+    bottom: 14rem;
+    padding: 1rem 4rem;
+    margin-right: -44.6rem;
+  }
+  .paYpal, .merCado, .viSa {
+    width: 8.7rem;
+    height: 4.5rem;
+    top: -23.5rem;
+    left: 52px;
+  }
+  .merCado, .viSa {
+    width: 8.7rem;
+    height: 4.5rem;
+    top: -28rem;
+    left: 145.5px;
+  }
+  .viSa {
+    width: 8.7rem;
+    height: 4.5rem;
+    top: -32.5rem;
+    left: 240px;
+  }
+  .tituLosugerencia {
+    font-size: 2rem;
+    width: 18rem;
+    height: 5rem;
+    top: 4rem;
+    padding: 20px 20px;
+    left: 4.6rem;
+  }
+  .sugeRencias {
+    height: 43rem;
+  }
+  .tituLosugerencia2 {
+    margin-left: 3.5rem;
+    margin-top: -4rem;
+    font-size: 1.2rem;
+    width: 20rem;
+    height: 10.5rem;
+    padding: 18px 38px;
+    background-repeat: none;
+    background-size: none;
+    background-position: none;
+    background-color: none;
+    border-radius: 1.5rem;
+  }
+  label {
+    width: 10rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    margin-top: -8rem;
+    margin-left: 4rem;
+    padding: 10px 15px;
+  }
+  .texTarea {
+    width: 17rem;
+    height: 8rem;
+    margin-bottom: 76rem;
+    margin-left: -23rem;
+    background-repeat: none;
+    background-size: none;
+    background-position: none;
+    background-color: none;
+    border-radius: 1rem;
+  }
+  .botoNsugerencia {
+    padding: 26px 65px;
+    margin-left: -15.5rem;
+    margin-top: -78rem;
+  }
+  .botoNsugerencia img {
+    top: -4px;
+    left: 1.8rem;
+    width: 70px;
+  }
+}
+@media (max-width: 375px) {
+  .encabezado {
+    height: 4.8rem;
+  }
+  .encabezado p {
+    font-size: 2.2rem;
+    margin-top: -1.4rem;
+    margin-left: 6.5rem;
+  }
+  .naVbar {
+    font-size: 9px;
+    margin-left: 2rem;
+    margin-top: -2.8rem;
+  }
+  .tituloYSubtitulo img {
+    height: 17rem;
+  }
+  .tituloYSubtitulo h1 {
+    font-size: 1.6rem;
+    margin-top: -10rem;
+    margin-left: 12.5rem;
+  }
+  .tituloYSubtitulo h2 {
+    font-size: 12.5px;
+    margin-left: 12.5rem;
+    margin-top: -14rem;
+  }
+  .sectionParrafoUno {
+    height: 21rem;
+  }
+  .sectionParrafoUno h2 {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .sectionParrafoUno .parrAfouno, .sectionParrafoUno .parrAfodos {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+    margin-left: 1rem;
+  }
+  .sectionParrafoUno .parrAfodos {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+    height: 3.5rem;
+    margin-left: -9rem;
+  }
+  .conFiarr {
+    height: 120rem;
+  }
+  .conFiarr h2 {
+    margin-top: 1rem;
+    margin-left: -0.2rem;
+  }
+  .conFiarr img {
+    margin-top: 1rem;
+    margin-left: 4rem;
+  }
+  .conFiarr p {
+    margin-top: -8rem;
+    margin-left: 4rem;
+    padding: 20px 20px;
+  }
+  .soMos {
+    height: 75rem;
+  }
+  .soMos h2 {
+    font-size: 4.5rem;
+    margin-left: -9.1rem;
+  }
+  .soMos h3 {
+    font-size: 1.29rem;
+    width: 21rem;
+    margin-top: 35rem;
+    margin-right: 10rem;
+  }
+  .parrAfos {
+    left: 4rem;
+    top: 62rem;
+  }
+  .lucasImagen, .pepeImagen, .joseImagen, .andreaImagen {
+    left: 20%;
+  }
+  .texTolucas, .pepeTexto, .joseTexto, .andreTexto {
+    left: 20%;
+  }
+  .pepeImagen, .andreaImagen {
+    left: 20%;
+  }
+  .pepeTexto, .andreTexto {
+    left: 20%;
+  }
+  .joseImagen {
+    left: 20%;
+  }
+  .joseTexto {
+    left: 20%;
+  }
+  .andreaImagen {
+    left: 20%;
+  }
+  .andreTexto {
+    left: 20%;
+  }
+  .tituloDonar {
+    left: 3rem;
+  }
+  .textoDonar {
+    font-size: 1.16rem;
+    left: 1.8rem;
+  }
+  button {
+    margin-right: -45.8rem;
+  }
+  .paYpal, .merCado, .viSa {
+    left: 1.875rem;
+  }
+  .merCado, .viSa {
+    left: 7.25rem;
+  }
+  .viSa {
+    left: 12.5rem;
+  }
+  .tituLosugerencia {
+    left: 3.1rem;
+  }
+  .tituLosugerencia2 {
+    margin-left: 2rem;
+  }
+  label {
+    margin-left: 3.2rem;
+  }
+  .texTarea {
+    margin-left: -24rem;
+  }
+  .botoNsugerencia {
+    margin-left: -16.6rem;
+  }
+}
+@media (max-width: 320px) {
+  .encabezado {
+    height: 4.55rem;
+  }
+  .encabezado p {
+    font-size: 2.2rem;
+    margin-top: -1.2rem;
+    margin-left: 4.8rem;
+  }
+  .naVbar {
+    font-size: 0.49rem;
+    margin-left: 1rem;
+    margin-top: -2.5rem;
+  }
+  .tituloYSubtitulo img {
+    height: 14rem;
+  }
+  .tituloYSubtitulo h1 {
+    font-size: 1.45rem;
+    margin-top: -8.5rem;
+    margin-left: 10.5rem;
+  }
+  .tituloYSubtitulo h2 {
+    font-size: 11.8px;
+    margin-left: 10.3rem;
+    margin-top: -12.8rem;
+  }
+  .sectionParrafoUno {
+    height: 19.5rem;
+  }
+  .sectionParrafoUno .parrAfouno, .sectionParrafoUno .parrAfodos {
+    font-size: 0.7rem;
+    padding: 8px 20px;
+    margin-left: 1rem;
+    margin-top: -48.5rem;
+  }
+  .sectionParrafoUno .parrAfodos {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+    height: 3.5rem;
+    margin-left: -9rem;
+    margin-top: -42rem;
+  }
+  .conFiarr {
+    height: 120rem;
+  }
+  .conFiarr h2 {
+    width: 24.5rem;
+    height: 9rem;
+    font-size: 2.1rem;
+    margin-top: 1rem;
+    margin-left: -0.2rem;
+  }
+  .conFiarr img {
+    width: 13rem;
+    height: 17rem;
+    margin-top: 1rem;
+    margin-left: 2.3rem;
+  }
+  .conFiarr p {
+    font-size: 1.2rem;
+    width: 13rem;
+    height: 10.5rem;
+    margin-top: -8rem;
+    margin-left: 2.3rem;
+    padding: 20px 20px;
+  }
+  footer {
+    font-size: 1.1rem;
+    padding: 20px 0px 0px 20px;
+  }
+  .contActos div h3 {
+    font-size: 2.5rem;
+  }
+  .reDes div h3 {
+    font-size: 2.5rem;
+  }
+  .soMos {
+    height: 75rem;
+  }
+  .soMos h2 {
+    font-size: 4.5rem;
+    width: 17rem;
+    margin-left: -9.5rem;
+  }
+  .soMos h3 {
+    font-size: 1.29rem;
+    width: 17rem;
+    margin-top: 35rem;
+    margin-right: 10rem;
+  }
+  .parrAfos {
+    left: 4.2rem;
+    top: 61rem;
+  }
+  .parrAfos p {
+    font-size: 0.8rem;
+    width: 15rem;
+    height: 6rem;
+    padding: 13px 18px;
+  }
+  .lucasImagen, .pepeImagen, .joseImagen, .andreaImagen {
+    left: 16%;
+  }
+  .texTolucas, .pepeTexto, .joseTexto, .andreTexto {
+    left: 16%;
+  }
+  .pepeImagen, .andreaImagen {
+    left: 16%;
+  }
+  .pepeTexto, .andreTexto {
+    left: 16%;
+  }
+  .joseImagen {
+    left: 16%;
+  }
+  .joseTexto {
+    left: 16%;
+  }
+  .andreaImagen {
+    left: 16%;
+  }
+  .andreTexto {
+    left: 16%;
+  }
+  .tituloDonar {
+    left: 1.1rem;
+  }
+  .textoDonar {
+    font-size: 1.1rem;
+    left: 1rem;
+    width: 18rem;
+  }
+  button {
+    margin-right: -47.5rem;
+  }
+  .paYpal, .merCado, .viSa {
+    left: 0.0625rem;
+  }
+  .merCado, .viSa {
+    left: 5.75rem;
+  }
+  .viSa {
+    left: 11.25rem;
+  }
+  .tituLosugerencia {
+    left: 1.3rem;
+  }
+  .tituLosugerencia2 {
+    font-size: 1rem;
+    margin-right: 1.5rem;
+  }
+  label {
+    margin-left: 2rem;
+  }
+  .texTarea {
+    margin-left: -25.5rem;
+    width: 16rem;
+  }
+  .botoNsugerencia {
+    margin-left: -18.6rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

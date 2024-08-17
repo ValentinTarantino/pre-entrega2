@@ -1,0 +1,338 @@
+@media (max-width:425px){
+    .encabezado{
+        height: 4.9rem;
+        p{
+            font-size: 2.2rem;
+            margin-top: -1.2rem;
+            margin-left: 8rem;
+            }
+    } 
+    .naVbar{
+        font-size: 10px;
+        margin-left: 3rem;
+        margin-top: -2.8rem;
+    }
+
+    .tituloYSubtitulo img{
+        height: 18rem;
+    }
+    .tituloYSubtitulo h1{
+        font-size: 1.9rem;
+            margin-top: -10.5rem;
+            margin-left: 14rem;
+    }
+    .tituloYSubtitulo h2{
+            font-size: 0.9rem;
+            margin-top: -14rem;
+            margin-left: 14.3rem;
+    }
+
+    .sectionParrafoUno{
+        height: 21rem;
+        h2{
+            font-size: 1.3rem;
+            width: 15rem;
+            padding-top: 7.8rem;
+            margin-left: 1.3rem;
+            margin-top: -4rem;
+        }
+    }
+
+    .parrAfouno{
+        @include bground (none, none, none, none, 1rem);
+        font-size: 0.7rem;
+        width: 9rem;
+        height: 4.2rem;
+        padding: 9px 20px;
+        margin-top: -47rem;
+        margin-left: 2rem;
+    }
+    .parrAfodos{
+        @include bground (none, none, none, none, 1rem);
+        font-size: 0.7rem;
+        width: 9rem;
+        height: 4.2rem;
+        margin-top: -41rem;
+        margin-left: -9rem;
+        padding: 15px 20px;
+    }
+    .conFiarr{
+        height: 120rem;
+        h2{
+            width: 24.5rem;
+            height: 9rem;
+            font-size: 2.5rem;
+            margin-top: 1rem;
+            margin-left: -0.2rem;
+        }
+        p{
+            font-size: 1.2rem;
+            width: 13rem;
+            height: 10.5rem;
+            margin-top: -8rem;
+            margin-left: 5.5rem;
+            padding: 20px 20px;
+        }
+    }
+
+    .conFiarr2 img{
+        margin-top: 1rem;
+        margin-left: 5.5rem;
+    }
+    footer{
+        width: 100%;
+        font-size: 1.1rem;
+        height: 37rem;
+        @include flex (none, none, none, none, 1rem)
+    }
+    .contActos p{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .reDes p{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+.soMos{
+    height: 75rem;
+    h2{
+        width: 20rem;
+        font-size: 5.5rem;
+        margin-left: -8.5rem;
+        margin-top: -2rem;
+    }
+    h3{
+        width: 25rem;
+        font-size: 1.5rem;
+        margin-top: 40rem;
+        margin-left: -8.5rem;
+    }
+}
+
+.parrAfos{
+    left: 5.5rem;
+    top: 60rem;
+    p{
+        font-size: 0.9rem;
+        width: 19rem;
+        height: 6rem;
+        padding: 15px 18px;
+    }
+}
+
+.lucasImagen{ 
+    width: 14rem;
+    height: 11rem;
+    left: 24%;
+    top: 100px;
+}
+
+.texTolucas{
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 16px 20px;
+    left: 24%;
+    top: 350px;
+}
+
+.pepeImagen{
+    width: 14rem;
+    height: 11rem;
+    left: 24%;
+    top: 600px;
+}
+
+.pepeTexto{
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 24%;
+    top: 850px;
+    padding: 25px 20px;
+
+}
+
+.joseImagen{
+    width: 14rem;
+    height: 11rem;
+    left: 24%;
+    top: 1120px;
+
+}
+
+
+.joseTexto{
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 24%;
+    top: 1350px;
+    font-size: 1.3rem;
+    padding: 15px 20px;
+}
+
+
+.andreaImagen{
+
+    width: 14rem;
+    height: 11rem;
+    left: 24%;
+    top: 1600px;
+}
+
+.andreTexto{
+
+    width: 14rem;
+    height: 12rem;
+    font-size: 1.3rem;
+    padding: 18px 30px;
+    left: 24%;
+    top: 1850px;
+    padding: 18px 20px;
+}
+
+.doNaciones {
+    height: 77rem;
+}
+
+.tituloDonar{
+    @include flex (none, none, none, none, 1rem);
+    font-size: 1.5rem;
+    width: 18rem;
+    height: 4rem;
+    top: 5rem;
+    padding: 5px 40px;
+    left: 4.6rem ;
+}
+
+.textoDonar{
+    left: 3.6rem;
+    font-size: 1.2rem;
+    width: 20rem;
+    height: 10rem;
+    padding: 15px 38px;
+    top: -27rem;
+    @include flex (none, none, none, none, 1rem);
+}
+
+button{
+    bottom: 14rem;
+    padding: 1rem 4rem;
+    margin-right: -44.6rem;
+}
+
+
+.paYpal{
+    width: 8.7rem;
+    height: 4.5rem;
+    top: -23.5rem;
+    left: 52px
+}
+
+.merCado{
+    width: 8.7rem;
+    height: 4.5rem;
+    top: -28rem;
+    left: 145.5px;
+}
+
+.viSa{
+    width: 8.7rem;
+    height: 4.5rem;
+    top: -32.5rem;
+    left: 240px;
+}
+
+.tituLosugerencia{
+    font-size: 2rem;
+    width: 18rem;
+    height: 5rem;
+    top: 4rem;
+    padding: 20px 20px;
+    left: 4.6rem ;
+}
+
+
+.sugeRencias{
+    height: 43rem;
+}
+
+
+.tituLosugerencia2{
+    margin-left: 3.5rem;
+    margin-top: -4rem;
+    font-size: 1.2rem;
+    width: 20rem;
+    height: 10.5rem;
+    padding: 18px 38px;
+    @include bground (none, none, none, none, 1.5rem)
+}
+label{
+    width: 10rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    margin-top: -8rem;
+    margin-left: 4rem;
+    padding: 10px 15px;
+}
+.texTarea{
+    width: 17rem;
+    height: 8rem;
+    margin-bottom: 76rem;
+    margin-left: -23rem;
+    @include bground (none, none, none, none, 1rem)
+}
+
+.botoNsugerencia{
+    padding: 26px 65px;
+    margin-left: -15.5rem;
+    margin-top: -78rem;
+}
+
+.botoNsugerencia img{
+    top: -4px;
+    left: 1.8rem;
+    width: 70px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

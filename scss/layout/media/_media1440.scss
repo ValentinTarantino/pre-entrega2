@@ -1,0 +1,229 @@
+@media (max-width:1440px){
+    .encabezado{
+        height: 7rem;
+        p{
+            font-size: 5rem;
+            margin-top: -20px
+        }
+}
+
+
+.naVbar{
+    @include flex(none, none, none, none, 1.3rem);
+    font-size: 2rem;
+    margin-top: -18px;
+    margin-left: 1rem;
+}
+
+.tituloYSubtitulo img{
+    height: 60rem;
+}
+.tituloYSubtitulo h1{
+    font-size: 6.5rem;
+    margin-top: -36rem;
+    margin-left: 48rem;
+}
+
+.tituloYSubtitulo h2{
+    font-size: 3rem;
+    padding-top: 6rem;
+    margin-left: 49.1rem;
+}
+
+.sectionParrafoUno{
+    height: 80rem;
+    margin-top: -10rem;
+    h2{
+        font-size: 5rem;
+        margin-top: 11rem;
+    }
+}
+
+.parrAfouno{
+    width: 35rem;
+    height: 17rem;
+    font-size: 3rem;
+    margin-top: -47rem;
+    padding: 40px 30px;
+}
+.parrAfodos{
+    width: 35rem;
+    height: 13rem;
+    font-size: 3rem;
+    margin-top: -20rem;
+    margin-left: -35rem;
+}
+
+.conFiarr{
+    height: 98rem;
+    h2{
+        font-size: 5.5rem;
+        height: 14rem;
+        width: 80rem;
+        margin-left: 4rem;
+    }
+}
+.conFiarr2 img{
+    margin-bottom: 10rem;
+    margin-left: 7.5rem;
+    width: 19rem;
+    height: 25rem;
+    margin-top: 4rem;
+}
+.conFiar p{
+    margin-top: 0.2rem;
+    margin-left: 7.5rem;
+    font-size: 1.87rem;
+    width: 19rem;
+    height: 17rem;
+}
+
+.soMos {
+    height: 98rem;
+    h2{
+        font-size: 10rem;
+    }
+    h3{
+        font-size: 4rem;
+        margin-top: 14rem;
+        margin-left: 4rem;
+    }
+}
+.parrAfos{
+    margin-top: -18rem;
+    margin-right: 11rem;
+    p{
+        font-size: 1.6rem;
+        width: 18rem;
+        height: 20rem;
+    }
+}
+
+.imgsTexto{
+    height: 98rem;
+}
+.lucasImagen{ 
+    width: 27rem;
+    height: 20rem;
+    left: 13rem;
+    top: 9rem;
+}
+
+.texTolucas{
+    width: 30rem;
+    height: 20rem;
+    font-size: 2.5rem;
+    padding: 40px 40px;
+    top: 9rem;
+    left: 47rem;
+}
+
+.pepeImagen{
+
+    left: 49rem;
+    top: 34rem;
+}
+
+.pepeTexto{
+
+    padding: 30px 40px;
+    top: 34rem;
+    left: 11.5rem;
+}
+
+.joseImagen{
+
+    left: 13rem;
+    top: 58rem;
+}
+
+.joseTexto{
+
+    font-size: 2.5rem;
+    padding: 20px 45px;
+    left: 46rem;
+    top: 58rem;
+}
+
+.andreaImagen{
+
+    left: 49rem;
+    top: 83rem;
+}
+
+.andreTexto{
+
+    font-size: 2.5rem;
+    padding: 30px 40px;
+    top: 83rem;
+    left: 11.5rem;
+}
+
+.doNaciones {
+    height: 143rem;
+}
+
+.tituloDonar{
+    font-size: 5rem;
+    width: 65rem ;
+    left: 13.5rem;
+    padding: 33px 175px;
+
+}
+
+.textoDonar{
+    font-size: 4.1rem;
+    width: 75rem ;
+    left: 8rem;
+    padding: 20px 100px;
+    
+}
+
+button{
+    bottom: -18rem;
+    margin-right: -14rem;
+    padding: 20px 80px;
+    
+}
+
+.paYpal{
+    left: -47rem;
+}
+
+.merCado{
+    left: -35.7rem;
+}
+
+.viSa{
+    left: -24rem;
+}
+
+.sugeRencias{
+    height: 140.5rem ;
+}
+
+.tituLosugerencia{
+    font-size: 7.9rem;
+    width: 68.5rem ;
+    left: 13rem;
+}
+
+.tituLosugerencia2{
+    font-size: 4rem;
+    width: 75rem ;
+    margin-left: 10rem;
+}
+
+label{
+    margin-left: 16.5rem;
+    margin-top: -30rem;
+}
+textarea{
+    margin-left: -13rem;
+}
+
+.botoNsugerencia{
+    left: 36.5rem;
+    top: 120rem;
+}
+}

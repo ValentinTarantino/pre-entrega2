@@ -1,0 +1,221 @@
+
+.navBoost h2{
+    font-family: $font-titulo;
+    color: $color-fuente;
+    font-size: 6rem;
+}
+    .navBoost ul li{
+        @include flex(none, wrap, none, none, none);
+        font-family: $font-texto;
+        color: $color-fuente;
+        font-size: 3rem;
+        margin-top: 1rem;
+        padding: 1px 10px;
+
+}
+.navBoost ul li:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease, font-size 0.3s ease; 
+}
+
+.galeRia{
+    @include bground(no-repeat, cover, center, none, none);
+    @include flex(none, wrap, none, none, none);
+    background-image: url("../assets/img/fotogaleria3.png");
+    font-family: $font-texto;
+    width: 100%;
+    height: 215rem;
+    img{
+        position: relative;
+        top: 15rem;
+        width: 100%;
+        height: 53rem;
+        object-fit: contain;
+    }
+    p{
+        @include flex(none, wrap, center, none, none);
+        @include bground(none, none, none, $color1, 1rem);
+        font-size: 6.25rem;
+        color: $color-fuente;
+        position: relative;
+        width: 75%;
+        top: 10rem;
+        left: 15rem;
+        padding: 20px 20px;
+    }
+    
+}
+.col-lg-4{
+    padding: 60px;
+    padding-top: -100px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:1440px){
+    .galeRia{
+        height: 220.5rem;
+        p{
+            font-size: 4.5rem;
+            height: 10rem;
+            top: 9rem;
+            left: 12rem;
+        }
+        img{
+            top: 6rem;
+        }
+        .col-lg-4{
+            padding: 30px;
+            padding-top: -100px;
+        }
+    }
+    .navBoost{
+        height: 7rem;
+        @include flex(none, none, none, none, 3rem);
+        h2{
+            font-size: 5rem;
+            margin-top: -1px;
+        }
+        p{
+            font-size: 5rem;
+                margin-bottom: -2rem;
+        }
+        ul li{
+
+            font-size: 2rem;
+            padding: 0px 0px;
+            margin-bottom: 1rem;
+        }
+    }
+
+}
+
+@media (max-width:1024px){
+    .galeRia{
+        height: 110rem;
+        p{
+            top: 5rem;
+            font-size: 3.3rem;
+            height: 8rem;
+            left: 9rem;
+        }
+        img{
+            top: 6rem;
+            height: 20rem;
+            object-fit: contain;
+        }
+    }
+    .navBoost{
+        height: 5.7rem;
+        h2{
+            font-family: "Italianno", sans-serif;
+            margin-top: 1rem;
+            font-size: 4rem;
+        }
+        ul li{
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
+
+@media (max-width:768px){
+    .galeRia{
+        height: 110rem;
+        img{
+            top: 5rem;
+            width: 100%;
+            height: 26rem;
+            object-fit: contain;
+        }
+        p{
+            top: 4rem;
+            font-size: 2.3rem;
+            height: 6rem;
+            left: 6rem;
+        }
+    }
+    
+    .col-lg-4{
+        padding: 20px;
+    }
+    
+    .navBoost{
+        height: 4rem;
+        h2{
+            font-size: 2.5rem;
+                margin-top: 10px;
+        }
+        ul li{
+            font-size: 1rem;
+            margin-top: 1.7rem;
+        
+        }
+    }
+    
+    
+}
+
+@media (max-width:425px){
+    .galeRia{
+        height: 270rem;
+        img{
+            top: 5rem;
+            height: 25em;
+            object-fit: contain;
+        }
+            p{
+                font-size: 1.2rem;
+                width: 19rem;
+                height: 3rem;
+                left: 3.5rem;
+                top: 4rem;
+                padding: 7px 20px;
+            }
+        }
+    .navBoost{
+        height: 5rem;
+        div h2{
+            padding-top: 11px;
+            margin-top: -0.2rem;
+            font-size: 2.2rem;
+        }
+        ul li{
+            font-size: 0.63rem;
+            padding: 0px;
+            margin-top: -9px;
+        }
+    }
+
+}
+
+
+@media (max-width:375px){
+    .galeRia p{
+        font-size: 1.17rem;
+        width: 18rem;
+        height: 2.8rem;
+        top: 4rem;
+        left: 2.2rem;
+    }
+    .navBoost ul li{
+        font-size: 9px;
+    }
+}
+
+
+@media(max-width:320px){
+    .galeRia p{
+        top: 4rem;
+        left: 0.4rem;
+    }
+    .navBoost h2{
+        font-size: 0.2rem;
+    }
+    .navBoost ul li{
+            font-size: 0.5rem;
+        }
+    
+}

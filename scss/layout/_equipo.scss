@@ -1,0 +1,71 @@
+.imgsTexto{
+    background-image: url("../assets/img/Rectangle\ 44.png");
+    width: 100%;
+    height: 160rem;
+    @include bground(no-repeat, cover, center, none, none);
+    @include flex(none, wrap, none, none, none);
+}
+
+.lucasImagen{ 
+    @include flex(none, wrap, none, none, none);
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    left: 11rem;
+    top: 20rem;
+}
+
+.texTolucas{
+    @include flex(none, wrap, none, none, none);
+    @include bground(none, none, none, $color1, 2rem);
+    font-family: $font-texto;
+    color: $color-fuente;
+    font-size: 3.6rem;
+    position: absolute;
+    left: 58rem;
+    top: 21rem;
+    width: 50rem;
+    height: 28rem;
+    padding: 70px 70px;
+}
+
+.pepeImagen{
+    @extend .lucasImagen;
+    width: 40rem;
+    height: 30rem;
+    left: 68rem;
+    top: 55rem;
+}
+
+.pepeTexto{
+    @extend .texTolucas;
+    padding: 100px 70px;
+    left: 10rem;
+    top: 56rem;
+
+}
+
+.joseImagen{
+    @extend .lucasImagen;
+    top: 90rem;
+    left: 11rem;
+}
+
+.joseTexto{
+    @extend .texTolucas;
+    top: 91rem;
+    padding: 40px 65px;
+}
+
+.andreaImagen{
+    @extend .pepeImagen;
+    top: 128rem;
+}
+
+.andreTexto{
+    @extend .pepeTexto;
+    top: 129.5rem;
+    padding: 85px 65px;
+}
+
+
