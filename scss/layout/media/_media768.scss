@@ -97,18 +97,18 @@ footer{
     h2{
         font-size: 8rem;
         width: 30rem;
-        margin-left: -2rem;
+        margin-left: -3.5rem;
     }
     h3{
         width: 38rem;
         font-size: 2.3rem;
         margin-top: 2rem;
-        margin-left: -4.5rem;
+        margin-left: -6rem;
     }
 }
 .parrAfos{
     margin-top: -8rem;
-    margin-left: -1.8rem;
+    margin-left: -3.3rem;
     @include flex(none, none, none, none, 1.5rem);
     p{
         font-size: 1.3rem;

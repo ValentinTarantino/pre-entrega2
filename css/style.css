@@ -91,7 +91,7 @@ header li a {
   font-family: "Judson", sans-serif;
   font-size: 9rem;
   margin-top: -45rem;
-  margin-left: 76rem;
+  margin-left: 62rem;
   display: flex;
   flex-direction: none;
   flex-wrap: wrap;
@@ -103,7 +103,7 @@ header li a {
   font-family: "Judson", sans-serif;
   font-size: 4.2rem;
   margin-top: -35rem;
-  margin-left: 77.5rem;
+  margin-left: 63.5rem;
   display: flex;
   flex-direction: none;
   flex-wrap: wrap;
@@ -164,7 +164,7 @@ header li a {
 .parrAfodos {
   padding: 20px 40px;
   margin-top: -12rem;
-  margin-left: -50rem;
+  margin-left: -45rem;
   height: 20rem;
 }
 
@@ -216,7 +216,7 @@ header li a {
   padding: 30px 0px;
 }
 .conFiarr2 img {
-  margin-left: 12rem;
+  margin-left: 9rem;
 }
 .conFiarr2 p {
   background-repeat: no-repeat;
@@ -238,7 +238,7 @@ header li a {
   width: 27rem;
   height: 17rem;
   margin-top: 5rem;
-  margin-left: 12rem;
+  margin-left: 9rem;
   padding: 20px 40px;
 }
 
@@ -271,7 +271,7 @@ header li a {
   position: relative;
   text-align: center;
   top: 10rem;
-  left: 11rem;
+  left: 12rem;
 }
 .soMos h3 {
   display: flex;
@@ -286,7 +286,7 @@ header li a {
   position: relative;
   text-align: center;
   bottom: 38rem;
-  left: 10rem;
+  left: 12rem;
 }
 .soMos p {
   display: flex;
@@ -317,7 +317,7 @@ header li a {
   gap: 7rem;
   position: absolute;
   top: 95rem;
-  left: 11rem;
+  left: 12rem;
 }
 
 .imgsTexto {
@@ -1024,15 +1024,16 @@ footer {
   }
   .soMos h2 {
     font-size: 10rem;
+    margin-left: -3.5rem;
   }
   .soMos h3 {
     font-size: 4rem;
     margin-top: 14rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
   }
   .parrAfos {
     margin-top: -18rem;
-    margin-right: 11rem;
+    margin-left: -1.4rem;
   }
   .parrAfos p {
     font-size: 1.6rem;
@@ -1234,12 +1235,12 @@ footer {
   }
   .soMos h2 {
     font-size: 8rem;
-    margin-left: -7rem;
+    margin-left: -8.5rem;
   }
   .soMos h3 {
     font-size: 3rem;
     margin-top: 13rem;
-    margin-left: -1rem;
+    margin-left: -3rem;
   }
   .parrAfos {
     margin-top: -24rem;
@@ -1467,17 +1468,17 @@ footer {
   .soMos h2 {
     font-size: 8rem;
     width: 30rem;
-    margin-left: -2rem;
+    margin-left: -3.5rem;
   }
   .soMos h3 {
     width: 38rem;
     font-size: 2.3rem;
     margin-top: 2rem;
-    margin-left: -4.5rem;
+    margin-left: -6rem;
   }
   .parrAfos {
     margin-top: -8rem;
-    margin-left: -1.8rem;
+    margin-left: -3.3rem;
     display: flex;
     flex-direction: none;
     flex-wrap: none;
@@ -1727,19 +1728,19 @@ footer {
   }
   .soMos h2 {
     width: 20rem;
-    font-size: 5.5rem;
+    font-size: 5.2rem;
     margin-left: -8.5rem;
     margin-top: -2rem;
   }
   .soMos h3 {
-    width: 25rem;
-    font-size: 1.5rem;
-    margin-top: 40rem;
-    margin-left: -8.5rem;
+    width: 16rem;
+    font-size: 1.1rem;
+    margin-top: 60rem;
+    margin-left: -18rem;
   }
   .parrAfos {
-    left: 5.5rem;
-    top: 60rem;
+    left: 7rem;
+    top: 61rem;
   }
   .parrAfos p {
     font-size: 0.9rem;
@@ -1981,17 +1982,17 @@ footer {
   }
   .soMos h2 {
     font-size: 4.5rem;
-    margin-left: -9.1rem;
+    margin-left: -10rem;
   }
   .soMos h3 {
-    font-size: 1.29rem;
-    width: 21rem;
-    margin-top: 35rem;
-    margin-right: 10rem;
+    font-size: 1.1rem;
+    width: 19rem;
+    margin-top: 58rem;
+    margin-left: -19rem;
   }
   .parrAfos {
-    left: 4rem;
-    top: 62rem;
+    left: 5.5rem;
+    top: 61rem;
   }
   .lucasImagen, .pepeImagen, .joseImagen, .andreaImagen {
     left: 20%;
@@ -2133,18 +2134,18 @@ footer {
     height: 75rem;
   }
   .soMos h2 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     width: 17rem;
-    margin-left: -9.5rem;
+    margin-left: -10.3rem;
   }
   .soMos h3 {
-    font-size: 1.29rem;
-    width: 17rem;
-    margin-top: 35rem;
-    margin-right: 10rem;
+    font-size: 1rem;
+    width: 15rem;
+    margin-top: 57rem;
+    margin-left: -16.5rem;
   }
   .parrAfos {
-    left: 4.2rem;
+    left: 6rem;
     top: 61rem;
   }
   .parrAfos p {

@@ -13,14 +13,14 @@
             font-family: $font-texto;
             font-size: 9rem;
             margin-top: -45rem;
-            margin-left: 76rem;
+            margin-left: 62rem;
             @include flex(none, wrap, none, none, none);
         }
         h2{
             font-family: $font-texto;
             font-size: 4.2rem;
             margin-top: -35rem;
-            margin-left: 77.5rem;
+            margin-left: 63.5rem;
             @include flex(none, wrap, none, none, none);
         }
     
@@ -58,7 +58,7 @@
     @extend .parrAfouno;
     padding: 20px 40px;
     margin-top: -12rem;
-    margin-left: -50rem;
+    margin-left: -45rem;
     height: 20rem;
 }
 .conFiarr{
@@ -85,7 +85,7 @@
     @include flex(row, wrap, none, none, none);
     padding: 30px 0px;
     img{
-        margin-left: 12rem
+        margin-left: 9rem
     }
     p{
         @include bground(no-repeat, cover, center, $color1, 2rem);
@@ -98,7 +98,7 @@
         width: 27rem;
         height: 17rem;
         margin-top: 5rem;
-        margin-left: 12rem;
+        margin-left: 9rem;
         padding: 20px 40px;
     }
 }
